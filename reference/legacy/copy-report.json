@@ -1,0 +1,1779 @@
+{
+  "source": "https://brukivka.org/",
+  "copied_count": 253,
+  "mapped_gallery_entries": 125,
+  "total_bytes": 26360433,
+  "files": [
+    {
+      "path": "images/1_1.png",
+      "sha256": "fafebb0f3af10db075adae7d923a04a4237770de6e78b54cad96b8f00fb62887",
+      "bytes": 471004,
+      "width": 485,
+      "height": 540
+    },
+    {
+      "path": "images/1_2.png",
+      "sha256": "b62e609948521ae6db11535d81c8b8d0dd0985a5bf80389fada7093bff91293a",
+      "bytes": 488298,
+      "width": 486,
+      "height": 540
+    },
+    {
+      "path": "images/kamen1/1_1.jpg",
+      "sha256": "05b3134761681708c3e6c28d53a2cd686fb37df73b0d69b6216c6897c2fcb5c5",
+      "bytes": 147454,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_10.jpg",
+      "sha256": "01b6b66e94e82b42ef099263409dddeb0c28a2ea5679ec198f94733ad6d6f225",
+      "bytes": 59177,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_11.jpg",
+      "sha256": "d27e47619ea2cafa9d819700519726366717b6408e2bc7d113fe82fc5e6e27e2",
+      "bytes": 162798,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_12.jpg",
+      "sha256": "8a4f331e91a49ea36d5c26d133ef55496c4438b259c145ca09ea36229218279f",
+      "bytes": 196405,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/kamen1/1_13.jpg",
+      "sha256": "9c486e310323697cf4c6fb00f4b44da3b3c26525f38d50336260a06a9c4ab62a",
+      "bytes": 116869,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_14.jpg",
+      "sha256": "29ba845896dfc3cb2ef79f02d2c8b7147e81407970a0354ecb3261003925fd65",
+      "bytes": 159112,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_15.jpg",
+      "sha256": "e02c405e3c851d73b0d984140871548b8e391fb4dfcf6ff98454d61779127ad4",
+      "bytes": 158828,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_2.jpg",
+      "sha256": "702bb5f4bfe4cd3683daa1af471e9570fa630ef8e1d4b9c3451b818df8be55d9",
+      "bytes": 41207,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_3.jpg",
+      "sha256": "5b76fd59b28da9ed7050aea8911f148065d85a092dade94e471007260ec7a49c",
+      "bytes": 156374,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_4.jpg",
+      "sha256": "ab1b202c47c1cc615fa13c930e0ac8965d6cc6d2f790d4129587646eccbe4f5e",
+      "bytes": 59731,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_5.jpg",
+      "sha256": "e5ac99545b7ac0d8f93603a6ae9f6c606e90e12ba30ad9f725916981646f6a71",
+      "bytes": 174385,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_6.jpg",
+      "sha256": "cfd021bd15749d67578cee4082d1d74ed7481588b924bc3facbe2fc7a0096204",
+      "bytes": 125589,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_7.jpg",
+      "sha256": "6ec0301993ceb8ad8fe22e5a56f7bca06ce7c55e461ebd627e85a93c1ee217dd",
+      "bytes": 140529,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_8.jpg",
+      "sha256": "5e7ebb94e9219501297e5bbf7be720d8f348ad2fa6f83eb0528bc49f4dbf810d",
+      "bytes": 176988,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kamen1/1_9.jpg",
+      "sha256": "9e269bfad7b0be3ea022cac04eb4eabbd4fa93247879ae07a036a334efc9c8e8",
+      "bytes": 68908,
+      "width": 674,
+      "height": 459
+    },
+    {
+      "path": "images/kmen/1_1.jpg",
+      "sha256": "1435eb9db2dd29909bcaf2e48d5ac7824140d2a6167fff13ee6835ad63ac96ea",
+      "bytes": 6783,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_10.jpg",
+      "sha256": "c44f13069ca64243ac059e4a761c6a5ca869b566569df87148623c1265b736d8",
+      "bytes": 3230,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_11.jpg",
+      "sha256": "a57cc3c6ab0e00adc46adec74b2424990c33f7a7f3fc823418fcc27bfca6dabf",
+      "bytes": 6357,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_12.jpg",
+      "sha256": "6c4ae00f40acaa88811f564662dcfc6b44859e333c212036c15397e435cf8748",
+      "bytes": 7344,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_13.jpg",
+      "sha256": "eddce1e1953d070c3c7ac4b1cc1930eb1aedf4c2075ad516622b2a9a59debb23",
+      "bytes": 5432,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_14.jpg",
+      "sha256": "5779033eb2979f1127754897a27946c6e6b857098c1c952524d4fc122ed24f59",
+      "bytes": 6523,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_15.jpg",
+      "sha256": "57e0dd4ba8453656a515a0a07da33b83442e6d6c902e270c631898d3cfa1ca72",
+      "bytes": 6580,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_2.jpg",
+      "sha256": "9bb3a3a3bfd5aeae9ad7a6483514b9055ee7a83f5275ced314f21d00f081eb0d",
+      "bytes": 1545,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_3.jpg",
+      "sha256": "165ce0ceda172ee564cc32285ddaa4ec2e096f0ac371d15860fce321ee4b883e",
+      "bytes": 6751,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_4.jpg",
+      "sha256": "f777a6f8871cc03932f71150a02eca5694828a9ece834e1e3c3f32604ab63ccc",
+      "bytes": 2882,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_5.jpg",
+      "sha256": "ea9cd484230362c98ac4804c3665db9c3b371e4d1ac959b1f9e23b93eb8c57ba",
+      "bytes": 8891,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_6.jpg",
+      "sha256": "4cd87f17ef8e328f1b256197c9de129ed81e955c5696d0fe508d5237acc17d0e",
+      "bytes": 5874,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_7.jpg",
+      "sha256": "c7c7f4028de278519da6b9218db443e8ac2c74260f5086588bdacb028d126348",
+      "bytes": 4383,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_8.jpg",
+      "sha256": "be3dd55e25fd47e19f1bb42b9ef71d82ba02c6cf2950bc09e1b57e12fbd785a6",
+      "bytes": 7781,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/kmen/1_9.jpg",
+      "sha256": "93dd40b72f087ee426bf812e38a5339c6d407a20ae4797d36a14720ce7dd568b",
+      "bytes": 3215,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/logo.png",
+      "sha256": "66af36c3512005c25ffec37850c4307c731b115d326719e170aabdcd47c10715",
+      "bytes": 2834,
+      "width": 180,
+      "height": 61
+    },
+    {
+      "path": "images/new_cam/1/1_1.jpg",
+      "sha256": "07fad8e88dbe6f0f6895a1b24459cdad5828c8bc257c95b53295dc87f4d3deb0",
+      "bytes": 306449,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_10.jpg",
+      "sha256": "0c8cf0b702dc22f7dead4a2dff45ac15622bc21c05b2d55a2b5eaa1adbe1bbb0",
+      "bytes": 363894,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_10_1.jpg",
+      "sha256": "00ac09d3a86d2704ec843afb4865bc4dca94d2303fc9a413ae63e6175329fdb8",
+      "bytes": 5706,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_11.jpg",
+      "sha256": "1ca7578b557dbc468ad2f4c79f4e5317eabfa27ca4c28700cc3707af260fafd9",
+      "bytes": 408786,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_11_1.jpg",
+      "sha256": "40dbf654da59f9bc8a20bb2c176b3e54b61cf353f2bf4a3091459a8ad03e0edc",
+      "bytes": 5978,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_12.jpg",
+      "sha256": "47ff5eef98e56b6b881080acd2d0887d4e1ab311cd685878a18a6c511287aa04",
+      "bytes": 337743,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_12_1.jpg",
+      "sha256": "963ca7c1064dcc1f072ba1e50cb78aea61718928fd27e263d928417285e02bb0",
+      "bytes": 5801,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_1_1.jpg",
+      "sha256": "da0101e18719f763ea04fdb9a352316d11249a62bc36a4f0dd89f8fc2207d6f1",
+      "bytes": 6981,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_2.jpg",
+      "sha256": "4f90572c2ff604c337e87f47ccbca032e5cadc7fef975ff8a4b628701dd111d9",
+      "bytes": 328528,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_2_1.jpg",
+      "sha256": "f365afb3b4f8a32ac0d628d04d4a1da01c10698aa1a3ce497532642c37142ff0",
+      "bytes": 5719,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_3.jpg",
+      "sha256": "f94bfa7e1a6c210fbdfb0fb3a75eaa03caf3d7a551e31b5323809e4561bc1e17",
+      "bytes": 387480,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_3_1.jpg",
+      "sha256": "c17c9b301dd74f3cc521b027963f7b65055010d69c98782128d6e082cc623cd3",
+      "bytes": 7898,
+      "width": 113,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_4.jpg",
+      "sha256": "7476fe1503a612bcaadc0998d98757bb2dab7ddc1b0e9b7821bf41867a29ac07",
+      "bytes": 449738,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_4_1.jpg",
+      "sha256": "a05499561941c8b102049723a21109ded39361c0860e11b6e762ddbefd8cfbe3",
+      "bytes": 7410,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_5.jpg",
+      "sha256": "246ac165ed60392633f5dbb803d9110b9e803a5a8fb1d94d9a60db6f654d38b1",
+      "bytes": 439250,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_5_1.jpg",
+      "sha256": "b67f758ee6a5d760d1d4c00c9cbe9849dd6c0542396f5033450bc88b806b24b7",
+      "bytes": 5696,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_6.jpg",
+      "sha256": "e7f802cd3ca304a7bfab31065adfbb7f95657f248f9414ce267f3fbcc3fe68a8",
+      "bytes": 384350,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_6_1.jpg",
+      "sha256": "b3823f83a09aeee03c9b56d26da47fa763199e02e1e6e945b0c3cc2438984b54",
+      "bytes": 6921,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_7.jpg",
+      "sha256": "c3197ddcb3cfd3f8fe0d6da7d0f04066742bc95c2d66a6960b8568952184aa93",
+      "bytes": 319676,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1/1_7_1.jpg",
+      "sha256": "e69077327855042160836f7f30cb7547f9a08f79e4056e26ecde828f483f4c23",
+      "bytes": 7051,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_8.jpg",
+      "sha256": "dfc2ed830ac14a6a642ca3d5da86b9e03e82d4517615bf791e5ba1f254030763",
+      "bytes": 100015,
+      "width": 450,
+      "height": 358
+    },
+    {
+      "path": "images/new_cam/1/1_8_1.jpg",
+      "sha256": "11abea23daca9d6e1ec86c0fe7b572caba28930d624810bd8ad18d5a5493e293",
+      "bytes": 9215,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1/1_9.jpg",
+      "sha256": "339a83e82c3797a8acb4d6c3a46fa235aef1528b3a8afebbb1441ff3d2700d83",
+      "bytes": 152296,
+      "width": 500,
+      "height": 375
+    },
+    {
+      "path": "images/new_cam/1/1_9_1.jpg",
+      "sha256": "94c0332ee77792778a7cd715978ad6befcdf8ef8bae22035508b15fe8a5b9c48",
+      "bytes": 6718,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_1.jpg",
+      "sha256": "118454f5e011ae77e8a0f87ec6d2885082ab079504b519f3701cd81840f46088",
+      "bytes": 384706,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1_10.jpg",
+      "sha256": "c6be75b541f5ab4ac36f65f6ec5305d224d3bdd40c52acf63fae8e2f5b64ece7",
+      "bytes": 447858,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1_10_1.jpg",
+      "sha256": "c41a31d7ac9e2bf5651470b51e159a9452cf8eecd7036e5da49cb40338689c27",
+      "bytes": 9016,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_11.jpg",
+      "sha256": "a92248e4b56585a2c55af9a5aea2f1e3ce3f70abbce57796390de5f1400d2f42",
+      "bytes": 364054,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1_11_1.jpg",
+      "sha256": "c4e507b49b72a943e8c97aec62e66078fc785ed6b57f4bdf7ec90dcd5beb23e9",
+      "bytes": 6224,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_12.jpg",
+      "sha256": "e97492a2bba667f6158214e21bbad73a4482699e2ee34630b3ddcd9aab8f62d0",
+      "bytes": 282496,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1_12_1.jpg",
+      "sha256": "e21e9679b84cbffa555816030cac76149109fb63affb3feb4663ac116678874c",
+      "bytes": 7247,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_13.jpg",
+      "sha256": "0963da4e5e00accb9f5c92ff71d7b37ce845cbf3a1e1ed921dbbef9a4330e2d5",
+      "bytes": 363793,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1_13_1.jpg",
+      "sha256": "897339dbd9e04096096cf8d564b9a59693c7c34e9cd40dc57250da38a73338c7",
+      "bytes": 7079,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_14.jpg",
+      "sha256": "1c2827a105f5722c995fe7793cdc3173b2a13d456efee12d808348744e01aede",
+      "bytes": 315298,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1_14_1.jpg",
+      "sha256": "0e5b221d4bf6f9b72b7acf376d567f498fb8f18870519c7d3c72e10ffb47f306",
+      "bytes": 6201,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_1_1.jpg",
+      "sha256": "b8a3e85497cf6b55827784dfe6a0c340ce257ad1e123aa48fac7d49d6bcd812d",
+      "bytes": 6154,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_2.jpg",
+      "sha256": "40351d8009f35f0facd9d3da5fb9d3626903037e9f35eaf34f57e62108dd41eb",
+      "bytes": 355202,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1_2_1.jpg",
+      "sha256": "70aab4f24313358657e6d7b7e73b112afe95bdf9f19845bc91ff289f29374ddd",
+      "bytes": 6108,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_3.jpg",
+      "sha256": "d1a979abd9c0b6ddf469102b48ec543984385c925f46c5a7b125225714121204",
+      "bytes": 248124,
+      "width": 700,
+      "height": 521
+    },
+    {
+      "path": "images/new_cam/1_3_1.jpg",
+      "sha256": "5c0cadd8cebfe222a9632016c3dc88e194af70bf3f5273c3644d57fba9fa8b98",
+      "bytes": 8592,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_4.jpg",
+      "sha256": "d296d6be23df2f9a0e64e18ec8118bc5351c1577edb4a48817203753db7d6749",
+      "bytes": 373684,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1_4_1.jpg",
+      "sha256": "83ef57d4c7268fe8b82888799de1c0bd79de02d9212ccfcd891baba33b844b1c",
+      "bytes": 6280,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_5.jpg",
+      "sha256": "ce5e867e170d010dbd23da837750a414e2732b0ae8a0b5fe7df82baea5a690c4",
+      "bytes": 208740,
+      "width": 718,
+      "height": 800
+    },
+    {
+      "path": "images/new_cam/1_5_1.jpg",
+      "sha256": "b70eb110b9b5bf322733fcaec8c15600f8cb5c40e70da6ee8d76b5e0b62cefc8",
+      "bytes": 5286,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_6.jpg",
+      "sha256": "4b0d748f43cfb623eb21b507426d8d9dbe08d10c143b2e1c2f93a2b8bcdecdce",
+      "bytes": 97536,
+      "width": 650,
+      "height": 500
+    },
+    {
+      "path": "images/new_cam/1_6_1.jpg",
+      "sha256": "13845718ebd7fd972ccdc10c57045488cfdb87b300761df906425545a8abaf62",
+      "bytes": 6437,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_7.jpg",
+      "sha256": "7acf95835ddb95d313b0386d3586f50ab9231472a167d6026afc6cfd8f091444",
+      "bytes": 92523,
+      "width": 374,
+      "height": 355
+    },
+    {
+      "path": "images/new_cam/1_7_1.jpg",
+      "sha256": "551df5ff730add547786e541d79790c656977c1f1f0f75eb43883be0ef0f808b",
+      "bytes": 9227,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_8.jpg",
+      "sha256": "78b020e0e452fcd115f47b50e4d8ff2c615fe33d652d1d648e26e88a64b7ad4b",
+      "bytes": 369084,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/1_8_1.jpg",
+      "sha256": "da970ce4c424669209ddc721fa9168efd9c14b23e36811d979b6775806766ea0",
+      "bytes": 9396,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/1_9.jpg",
+      "sha256": "08f78cc5937b7f6277085afcfb0260e15a41e09663e2d112c7ffb30d5ddfe9d4",
+      "bytes": 92072,
+      "width": 420,
+      "height": 420
+    },
+    {
+      "path": "images/new_cam/1_9_1.jpg",
+      "sha256": "b502a067a28ab1cae0f0dc71d4e073e31f47ef331d26848d3d8ac2fd0b739ee3",
+      "bytes": 7540,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/2/1_1.jpg",
+      "sha256": "0ab4cc461c131cc1e31135fa58b78568c9ec3b4775f0025e353d1721677fafb8",
+      "bytes": 281288,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/2/1_1_1.jpg",
+      "sha256": "90f8780506853c88fe6085ad355fe80f4f38b72223462ac5df123945ade74ddb",
+      "bytes": 5467,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/2/1_2.jpg",
+      "sha256": "ae0e139d67f666a7cabf83a9674bacff64d506433f61b5b94da8f819b86af631",
+      "bytes": 444629,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/2/1_2_1.jpg",
+      "sha256": "9dddf2796a14fdec1006bb5bbe83991ffe0e379b3f3f73526613cb5b264fed28",
+      "bytes": 5860,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/2/1_3.jpg",
+      "sha256": "6f1b6fee530d16727ef2af10a078d82b9b3311ef616596ebf1a7687d4187d43d",
+      "bytes": 287406,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/2/1_3_1.jpg",
+      "sha256": "a83f3009cbfa7944a6d0161384febabfc5ae53d7faa51fa2d1dfd9d4529805fc",
+      "bytes": 5442,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/2/1_4.jpg",
+      "sha256": "2bef93cac51daa8066c0bfd1d9a620c6885011d097ad07e85b2cbe66f25cc70c",
+      "bytes": 299620,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/2/1_4_1.jpg",
+      "sha256": "0e68a697c847eff81aa2572945863c15d63ba25ca54741a80bafb9cae32b6365",
+      "bytes": 5862,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/2/1_5.jpg",
+      "sha256": "7bc2ac11c69df76766a4f7b2a95ff49105ed7a14a57d3b328a21c5d267d92a1c",
+      "bytes": 313403,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/2/1_5_1.jpg",
+      "sha256": "bed87c4b7cb473b6f31505cb0a77f9bcec41a2fdfe57c4b4b93dd789ab4e14b3",
+      "bytes": 7179,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/2/1_6.jpg",
+      "sha256": "326eeab4814e50f0868043be7b3f1c3984eae547fa8bc0ffa4cecaa59678a1a3",
+      "bytes": 343171,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/2/1_6_1.jpg",
+      "sha256": "9edb5abc0dac619a4124dac8377ea002f9b2b8491e35addbf0580ffbef11a8a5",
+      "bytes": 5956,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/2/1_7.jpg",
+      "sha256": "b61a623520e773509e7998d13270e2c42171e748ee6b3e306079458233018c35",
+      "bytes": 75709,
+      "width": 400,
+      "height": 351
+    },
+    {
+      "path": "images/new_cam/2/1_7_1.jpg",
+      "sha256": "ab4c40ff9d33d781b7ce56c82d8b30dd0fe60f7d92ab26f1167d52b75fcb34ac",
+      "bytes": 6012,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/2/1_8.jpg",
+      "sha256": "16f27dc40a4d4b286972af5d340dce8b9cde810530974ae22c516405ea344c22",
+      "bytes": 369234,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/2/1_8_1.jpg",
+      "sha256": "9ac6f3c52ab93a1fc39cafa018b615b697cef0d89d089443b5cf3f72f1cfd387",
+      "bytes": 8605,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/2/1_9.jpg",
+      "sha256": "f06d1cd171c81e5575936404217f72c87c41913b88290c4898fea4548b03e1b7",
+      "bytes": 337456,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/2/1_9_1.jpg",
+      "sha256": "5dfd8237da024a485b0277a91358b0a7c14f2f6e1edf48ae9756f9db3c1f9e51",
+      "bytes": 8156,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/3/1_1.jpg",
+      "sha256": "cb70c52b5abbcf63ed008a4e17cc30635abef22b3cea166d9342f827d4219f55",
+      "bytes": 407259,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/3/1_1_1.jpg",
+      "sha256": "670725c4712e8a8070ed5a2311896f74457e46cf24eb9fb487b6137a5e3dbc71",
+      "bytes": 7288,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/3/1_2.jpg",
+      "sha256": "04f2ea95363c9085a66af1cfe8871c790eab108f75801d3837e9ba8d8caedbcc",
+      "bytes": 424367,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/3/1_2_1.jpg",
+      "sha256": "1691a309f3eae1419accefebffea0560ba2226c3be1ec290d7d242c23bc51ae1",
+      "bytes": 5798,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/3/1_3.jpg",
+      "sha256": "d7d9fe588179f89c830145f56b5e6697f87f259dab2f8bed522ad89348bcd222",
+      "bytes": 338359,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/3/1_3_1.jpg",
+      "sha256": "d70c62b9620e1a35095b2e60fd5d86ca701dbb0b75d5968c55d6ec91ab280850",
+      "bytes": 6244,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/3/1_4.jpg",
+      "sha256": "544c1667f16d0096e3281b16b920a9d4a646e4186e0388dd296f08d969821dd9",
+      "bytes": 353416,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/3/1_4_1.jpg",
+      "sha256": "302c11ec6d344ea4ae741ef7b1e49374beacce1a80c6e724af76940db14335f8",
+      "bytes": 6930,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/3/1_5.jpg",
+      "sha256": "85cbecee0238bfdc91533f8ba15441cb852867ed9aaf0b60a9bfec2489845783",
+      "bytes": 233319,
+      "width": 736,
+      "height": 516
+    },
+    {
+      "path": "images/new_cam/3/1_5_1.jpg",
+      "sha256": "12189495daf9db9a20549d0d085a49700d4f94de80a2145ca68d1b055c5d9b4c",
+      "bytes": 8595,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/3/1_6.jpg",
+      "sha256": "85e2ba8cc0e57299c97c5b4826aeb601d970b831887968b8ebb59fcc54af6a51",
+      "bytes": 378298,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "path": "images/new_cam/3/1_6_1.jpg",
+      "sha256": "7bf1425bcd4fe1793c31e5146c3a82658bb271518a8f9e78dfa997f8fee06396",
+      "bytes": 5583,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/4/1_1.jpg",
+      "sha256": "03fad19fc7c0640d314fb7c6a840f8273d55214701c1575cba5667d8a368e46d",
+      "bytes": 350589,
+      "width": 729,
+      "height": 561
+    },
+    {
+      "path": "images/new_cam/4/1_1_1.jpg",
+      "sha256": "19aac7b2ae368391cfd16dfe66c3e29a694ed182dfa15b4d47d965c2e9ef9362",
+      "bytes": 12143,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/4/1_2.jpg",
+      "sha256": "5d9eb6a789131b198aacfc7d6fb41f0eb4f795cdec9c453f4de7caacb04b8cc4",
+      "bytes": 270043,
+      "width": 729,
+      "height": 561
+    },
+    {
+      "path": "images/new_cam/4/1_2_1.jpg",
+      "sha256": "bb615a871dff099d286a6217e4aa1d556a0515b5ff9ad9743fa566c692b36fc5",
+      "bytes": 5980,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/new_cam/4/1_3.jpg",
+      "sha256": "22c1ef2d25d8d13c502909a26581f2cf4f783ee64b6a1bef92404f6f7428bb9e",
+      "bytes": 271886,
+      "width": 810,
+      "height": 585
+    },
+    {
+      "path": "images/new_cam/4/1_3_1.jpg",
+      "sha256": "8ab1b3fe7c4798e211fc2f276a3bdc6d7089a09826f25c2eb4d19d45c8edac32",
+      "bytes": 6109,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt/1_1.jpg",
+      "sha256": "ae6c9e0cc98af8a044b692d1b7aa97abf4fb3587c4bcd852d865a8b3212571be",
+      "bytes": 122480,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt/1_10.jpg",
+      "sha256": "435bcc38f892c684737f744d0e7883aa512c275287e4ad22019c26a64d083e9e",
+      "bytes": 99834,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt/1_11.jpg",
+      "sha256": "3f7382cffe561ab7f6d2faa46d2cc273f174c6b42cd0c3a425ac0f4076baf487",
+      "bytes": 125264,
+      "width": 567,
+      "height": 419
+    },
+    {
+      "path": "images/obcekt/1_12.jpg",
+      "sha256": "e3bf849a3ccfdc81de8c446f508df1298477dd57b83787ed10ec161da6a084dd",
+      "bytes": 121178,
+      "width": 567,
+      "height": 419
+    },
+    {
+      "path": "images/obcekt/1_13.jpg",
+      "sha256": "980495dfada3a04349dba3743f1c1b26389d712ff1cb5d2fc3309cc50d6080cb",
+      "bytes": 100920,
+      "width": 567,
+      "height": 419
+    },
+    {
+      "path": "images/obcekt/1_14.jpg",
+      "sha256": "55b8625918ac9eda0281264ec8d695e81c9afd3c5a9602da0237d693799c9302",
+      "bytes": 113905,
+      "width": 567,
+      "height": 419
+    },
+    {
+      "path": "images/obcekt/1_2.jpg",
+      "sha256": "a894b5f1015c950da43c74fde48f95af6e556b3acf462b872f35bd74e87b5ebe",
+      "bytes": 95087,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt/1_3.jpg",
+      "sha256": "f7d5bca54563be601a0e828bee6828aada245be6c6c64abf4a94644f8ccfa980",
+      "bytes": 112313,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt/1_4.jpg",
+      "sha256": "ac345de472528483db1d3b217279b2e3a26331543fa524fb4fcc7da0d03d7748",
+      "bytes": 108116,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt/1_5.jpg",
+      "sha256": "7ec994e9e329d79a1d0aca6814fd71aea7d9db410c299e380222f75cf195a2e2",
+      "bytes": 92469,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt/1_6.jpg",
+      "sha256": "8a58ed5ffb1e5728398fc24beac93c740df52678909540d61a8eaa8d2fe2ae35",
+      "bytes": 108074,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt/1_7.jpg",
+      "sha256": "e07643a97f01cd43af7a35b243b7c9985b22b134f120ffd696f82a3f44b13edb",
+      "bytes": 134682,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt/1_8.jpg",
+      "sha256": "90a3e2d1e068454298925219546d576535eaf5a03706ca5d2fff27999c594bf0",
+      "bytes": 99857,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt/1_9.jpg",
+      "sha256": "d2b25f97113d57db8a8090c34307e68769acc0669b2dca6ed4781220761fba54",
+      "bytes": 108804,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/obcekt1/1_1.jpg",
+      "sha256": "996b1e85d94f22d93c03a560a60600fdd1f9b687d8f521532e871b36a67e489b",
+      "bytes": 5430,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_10.jpg",
+      "sha256": "c4b8be83a986a8aa9b252f45eb536a8d2f25feaadd9e0399c03c46fc74f65bfa",
+      "bytes": 4759,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_11.jpg",
+      "sha256": "062868e65c07be5e3a977216800561328727003362e1a33e3d39e15b98773191",
+      "bytes": 4689,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_12.jpg",
+      "sha256": "6a8319b1cf5bee74bd5ca5c03176d24254d5bcf985bf41ac3764db24aea76b46",
+      "bytes": 4387,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_13.jpg",
+      "sha256": "d4403d05fa50a003e2879c4bed9a4d6209047e751d5cee02b7e49498f83f496f",
+      "bytes": 3533,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_14.jpg",
+      "sha256": "981cc819316751b04f72f9980797a0d15e0c30b9af24922aa7066d8f980f7589",
+      "bytes": 3690,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_2.jpg",
+      "sha256": "078d22a45652a0e1b2fd66fa9d9ac857d297eaa54ec65fcf936a3c89b8b82e45",
+      "bytes": 4320,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_3.jpg",
+      "sha256": "719796f422f0cf978dc43459a12bd2966193b036ecea8a6ddd508fba96ac6cc0",
+      "bytes": 5004,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_4.jpg",
+      "sha256": "c8ecbea87c5f77c90e35b02dd5f29adfa9318f20e66c889be0d370e56522ff33",
+      "bytes": 4778,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_5.jpg",
+      "sha256": "0612fe708e34fab1816b5371767eee912858386ca4318570e1290d27bf44babb",
+      "bytes": 3962,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_6.jpg",
+      "sha256": "b7c3c246857bd3b44346704f7775b8103ffd9942cff87c094f40dd72743611cf",
+      "bytes": 4084,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_7.jpg",
+      "sha256": "a41b885da1eb41a62774a23c23da0a87e6217bfad26cbfb4266baff8955baa39",
+      "bytes": 6253,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_8.jpg",
+      "sha256": "389f113b30db3c4e6e8a4027af256642dd80098206a3a28599b689966924f70f",
+      "bytes": 5184,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/obcekt1/1_9.jpg",
+      "sha256": "fbc50221a2aa633201b7a5cc20bfab11a791cb30e07e97aae1a24f847e834dff",
+      "bytes": 4851,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/10_1.jpg",
+      "sha256": "b9d06caebcf509190c2f0e95ed319ccf0f211a88562a402416a473cff58871f9",
+      "bytes": 154947,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/10_1_1.jpg",
+      "sha256": "3a2ce52dd26d7ec7329da80dad48a1345e5cad5ee3d9139b4ee53cfbd717fdf5",
+      "bytes": 7320,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/10_2.jpg",
+      "sha256": "59b4b42bd10bdf4e5e2d10213a15c1e4cb503963661cfe9516931235e89977d9",
+      "bytes": 175495,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/10_2_1.jpg",
+      "sha256": "98a776b01f288bdd6d301f641622e3e5a1daa075bae4110c5c327b1691fa5d4c",
+      "bytes": 7424,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/11_1.jpg",
+      "sha256": "cf76d2cd5a0ed816ec2f64b6deaaddc867a4b931ec0a30e1c6c0ccce21cbf3f4",
+      "bytes": 116002,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/11_1_1.jpg",
+      "sha256": "bfc79537f1ec816297f80b0f6dd1670aad21e9a2a40b65a33a475859d7034df4",
+      "bytes": 7149,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/11_2.jpg",
+      "sha256": "c68012249131ecf7f81a62a3243ca634cfdf7fcd5821fa5837c6a7e95f57a251",
+      "bytes": 135380,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/11_2_1.jpg",
+      "sha256": "c42302a00c10006175a350c294d31988714cad89704736be8b7f3a9f0320ab7e",
+      "bytes": 6179,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_1.jpg",
+      "sha256": "feae24debf5b5db93702748543922288a6d3af9b9bd569bdd232f0eefbc534f2",
+      "bytes": 278456,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_10.jpg",
+      "sha256": "6affbe8f75eadbeaf3fb19cf14faa3ae0f18e9877c739013343603c5f8b6a6d9",
+      "bytes": 270191,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_10_1.jpg",
+      "sha256": "ba62a8baac96e813a127d16359de0f099f906589f9f991539dfefaad1c522840",
+      "bytes": 7480,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_1_1.jpg",
+      "sha256": "8e6099f53bb82843d34bbf239badb272a6608503b0c3fdb5176824dd9f5583bb",
+      "bytes": 10085,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_2.jpg",
+      "sha256": "bcbc22966db06c49dc7ca5c8a5fa1199f0e6844490b2be50bef92a46f44ad7f8",
+      "bytes": 212187,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_2_1.jpg",
+      "sha256": "47ff9f85e792465957d6e3312036f9e737e00f0c2c7192a7d3cbc19b39be7ea1",
+      "bytes": 8542,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_3.jpg",
+      "sha256": "a7889ed3d228b297153a09aa40e8af75858e15a2cdf6e4e8d6d286ed43acfe30",
+      "bytes": 238281,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_3_1.jpg",
+      "sha256": "7a01f64604701f0071d272c24d093a170dcc15086254a77bf9fad7d5774c5baa",
+      "bytes": 8894,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_4.jpg",
+      "sha256": "31b11d6b15f6771dd62a42b8e7dc3e6aa3f651995f77f66718f9f5a0661c2dc9",
+      "bytes": 211097,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_4_1.jpg",
+      "sha256": "4e9c9e3e208847cfb9428d0fb5c66dec081578b122c6210331f12e73aff20d7d",
+      "bytes": 6175,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_5.jpg",
+      "sha256": "034918a1eb9b79685647caa6a770eabbf39ec7805a066066742e3ad2039769be",
+      "bytes": 241575,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_5_1.jpg",
+      "sha256": "c4d1c309e71b46f55256f3bc917cffb231a0aa0e5e42b00baa55949613bd0108",
+      "bytes": 8218,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_6.jpg",
+      "sha256": "95a10b5bf670e8dd9fe99338e2b9213914454de7053c6bba143159ee2407a67f",
+      "bytes": 217170,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_6_1.jpg",
+      "sha256": "aa68da19016e485465b6c083b1440b57a4e9e28582872218659d7c32f561bcc3",
+      "bytes": 5374,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_7.jpg",
+      "sha256": "b336f07bd9eca59f337fa49043fb1bc11a6df495940c1c0ab82a861e98ec7a52",
+      "bytes": 211209,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_7_1.jpg",
+      "sha256": "86ae2820c906cbd4e5146567ea9fb410c92a8a1ad6c0458ff42fada55f712698",
+      "bytes": 6116,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_8.jpg",
+      "sha256": "5432e3c03b6717bae81109eb43ca5c78ce7c9a6cbc0c24cd3ace41228d6050a9",
+      "bytes": 142833,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_8_1.jpg",
+      "sha256": "819f444d946fd2fb140677520cf35bca96f0916201cffd2112aed910bf8d3f63",
+      "bytes": 9080,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/12_9.jpg",
+      "sha256": "8b073393adcf2e7c138aece41170443b3b1f9fe4f4a71e9631e8766a18c5267f",
+      "bytes": 295358,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/12_9_1.jpg",
+      "sha256": "404a3abf55d70bd36b412966f3fc454691d10c8ca795a777afab84b38b99c40f",
+      "bytes": 10267,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/1_1.jpg",
+      "sha256": "fdb5fed9f7a561b5a4c10c2aeef306392634a9399bcf83e583db625130208c3f",
+      "bytes": 5278,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/1_1_1.jpg",
+      "sha256": "689fe842f7432e1025f6462795a514320625a0b08ad5b347a6d78d051f1e3033",
+      "bytes": 78779,
+      "width": 450,
+      "height": 417
+    },
+    {
+      "path": "images/vidu_kamnya/1_2.jpg",
+      "sha256": "0bed8bd9047b6ce27a73cb1b69a691025bc9f66a1f31bf5a5e76e91fdc5599e8",
+      "bytes": 4194,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/1_2_1.jpg",
+      "sha256": "a9da798b492a740879ec033127d24ec8a2d2859760e1153eaf956a6735467417",
+      "bytes": 142086,
+      "width": 600,
+      "height": 496
+    },
+    {
+      "path": "images/vidu_kamnya/1_3.jpg",
+      "sha256": "3d9eddd6fa601f3cbbfbc7d7eb82c1a92d3a9a962a369153b516fc2e926b0d61",
+      "bytes": 3075,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/1_3_1.jpg",
+      "sha256": "b81e47212ca462a6af3f6ac724ab98190cb61a88ffe751324650f7d3b6f2d5d5",
+      "bytes": 121241,
+      "width": 600,
+      "height": 496
+    },
+    {
+      "path": "images/vidu_kamnya/1_4.jpg",
+      "sha256": "99c904f07231487a1d4c7a0a5223a1f6b94409b3ba643d0cc7711da7312c311c",
+      "bytes": 2520,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/1_4_1.jpg",
+      "sha256": "dc36031d53df70e9e86c135b1b6a4836af839d20a0393833f854ee9be9f8a63c",
+      "bytes": 58637,
+      "width": 600,
+      "height": 496
+    },
+    {
+      "path": "images/vidu_kamnya/1_5.jpg",
+      "sha256": "f4c557167b49070e90b38497cc3d6b0e395f237d8d57dc7acfddff025ebae9e8",
+      "bytes": 4941,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/1_5_1.jpg",
+      "sha256": "519e57319dff1b06842ee5455ed162439be28d45a0a3d24121d2c9dd30d69a62",
+      "bytes": 164014,
+      "width": 600,
+      "height": 496
+    },
+    {
+      "path": "images/vidu_kamnya/1_6.jpg",
+      "sha256": "cf664f2d29cdb344363ad33728ab8596b1658cbf9aaf486da3ea625431ce6d6e",
+      "bytes": 5316,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/1_6_1.jpg",
+      "sha256": "eb163d7fef6cf02e541735719e7b11eb4f0b3caf512ec9b1232f058b9e5fcafd",
+      "bytes": 180096,
+      "width": 600,
+      "height": 496
+    },
+    {
+      "path": "images/vidu_kamnya/1_9.jpg",
+      "sha256": "66c492507b0c14aa50d7c88f1859e14dca011a6c2414c3972466980108728585",
+      "bytes": 105539,
+      "width": 592,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/1_9_1.jpg",
+      "sha256": "2f92945ee11d558833de84092773ec5e03e228b909da36728c85f17ca9809173",
+      "bytes": 3328,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/2_1.jpg",
+      "sha256": "0a38d45dc70ff75ba50dff8cfdaa3e9bc43e38c1969e5a54163d3d5dd8348cd9",
+      "bytes": 5087,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/2_1_1.jpg",
+      "sha256": "9aa7b38a9c7108a5d04c776edd48a91b0a350cfb8f59e9b7e9383a3d868e0724",
+      "bytes": 59207,
+      "width": 496,
+      "height": 372
+    },
+    {
+      "path": "images/vidu_kamnya/2_2.jpg",
+      "sha256": "4281420cd3b2d7f3abca97f73d9a32dc7a6ec411181c1ad2ade3558706ce9456",
+      "bytes": 4919,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/2_2_1.jpg",
+      "sha256": "07ba0664e3432c8ec1fd0f9fac7cafb37196ebfaa9794c46b91d457b946fd8dd",
+      "bytes": 55998,
+      "width": 450,
+      "height": 323
+    },
+    {
+      "path": "images/vidu_kamnya/3_1.jpg",
+      "sha256": "d3b79d086e0efe1682dfbee8b127555bb8efea604d183f5f1b987ff19d384365",
+      "bytes": 4461,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/3_1_1.jpg",
+      "sha256": "c7d6e5aafd700bc2fe011842d95f0ec2572534803e06eb130d9185e92502a6f4",
+      "bytes": 65290,
+      "width": 450,
+      "height": 323
+    },
+    {
+      "path": "images/vidu_kamnya/3_2.jpg",
+      "sha256": "f00a1292ee5bb4c0d7f05c03afb3620c3bd6c5c25f18d10cb5bca6a3b8c0cf5d",
+      "bytes": 4361,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/3_2_1.jpg",
+      "sha256": "ee895db05f0f63ccca671d8eb704e41c027a907f181147fda0702d5d2129abc9",
+      "bytes": 110615,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_1.jpg",
+      "sha256": "ed9b4bbe367bf1333da5a793f3f2ef294664277401d17e98596f1eda890c5458",
+      "bytes": 100744,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_10.jpg",
+      "sha256": "7883ffd993fb2c8b9949a686d9ecc759d8b43c9444e0caf8283d6065be4e4f8e",
+      "bytes": 107429,
+      "width": 592,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_10_1.jpg",
+      "sha256": "74a469641cb32a0f6f48a6ced10bdecc09634601a74755e217e269b5eb0eebdd",
+      "bytes": 4762,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_11.jpg",
+      "sha256": "092f77270aafdcd86170b1b87eb17d4dbd143725d8220c78566686c3d872091f",
+      "bytes": 28808,
+      "width": 592,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_11_1.jpg",
+      "sha256": "d67cdaae16b95cd9bc3818fb71cdb335cf059f492f0c2d488a92e9f4d8dd4711",
+      "bytes": 1572,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_1_1.jpg",
+      "sha256": "1ad98804174d6d260b090b23d9bb5435e1cbdbeb7b384ee85984011300d2d756",
+      "bytes": 4316,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_2.jpg",
+      "sha256": "5151b8230a40d9f25eda801235c849bc4d80fd68c60f2bfcde8e1ac2f955dbec",
+      "bytes": 77832,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_2_1.jpg",
+      "sha256": "e9bef1ad35f7a34b05cd5a2431182400e833c27dcba2f89cf24473e5a0da74c6",
+      "bytes": 3754,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_3.jpg",
+      "sha256": "6e43d944223e62accc690869dbb7f37f1c3513ef60487ee08d6c828deec4c7b9",
+      "bytes": 113666,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_3_1.jpg",
+      "sha256": "7ec3ce9219a2606ee87db26b26e5bce22585aca6616c43a907dae173b0081c71",
+      "bytes": 4441,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_4.jpg",
+      "sha256": "badca52fbf9318ab1e6792cf77249bf022c1681fd585aad1849f3232aa325eaf",
+      "bytes": 65128,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_4_1.jpg",
+      "sha256": "0df66be4499743322b60230aa0a94e95f88bdf2c8cb0f91695d60067cddeae43",
+      "bytes": 3516,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_5.jpg",
+      "sha256": "fe0b6ba26f7a20ca72117b31de37c0fea8f5d4c6ed6844845381721fd730c82f",
+      "bytes": 117139,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_5_1.jpg",
+      "sha256": "e1958da8de93fe216289e705e2c2820503988836835924bff0caf52d871391d8",
+      "bytes": 4722,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_6.jpg",
+      "sha256": "3c891e78f246e1f6154d054a5155a1438c46cd5a10e3d8410fd896e8622596ed",
+      "bytes": 87388,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_6_1.jpg",
+      "sha256": "480e3a4716309369c93df175809d1ae91e154963cbe0b2f291a1dc4a946d20fd",
+      "bytes": 4400,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_7.jpg",
+      "sha256": "85f502c80c8dc3f589835d442e5fcdc2ff9dad01ed74551732a7cc36f5d03c27",
+      "bytes": 81445,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_7_1.jpg",
+      "sha256": "32a5d6099a5336eb152c814b57c41a010c24fb970ab6ef75dc6d3b52ed0f7c19",
+      "bytes": 4204,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_8.jpg",
+      "sha256": "e6c7e8ddc36c2cb10f9770945374d94143ed1a62376aeb13f988f965cd9f73bd",
+      "bytes": 137936,
+      "width": 592,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_8_1.jpg",
+      "sha256": "0fc8b6c6306413c3c98b35ccfff88f908696f7daa44e1107a3e238655b0c9858",
+      "bytes": 4307,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/4_9.jpg",
+      "sha256": "74a04d63df1f293409942777c502b7912c0109bf9672f07519dc0434d8dadde7",
+      "bytes": 97857,
+      "width": 592,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/4_9_1.jpg",
+      "sha256": "ace4035dd15921a2c03ddaf4c9099b50333842f5658b852047b099f12ecbcef0",
+      "bytes": 5033,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/5_1.jpg",
+      "sha256": "efcc84baf5dad757e24e5340f6a6743cd70dd1a56e6192209fd1061b00a6b8e2",
+      "bytes": 72823,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/5_1_1.jpg",
+      "sha256": "94396f7f6c92798ab8c7d54087e3adb176fa67852ab0fa7b3e76f8aa02139120",
+      "bytes": 3328,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/5_2.jpg",
+      "sha256": "50c9eb9527b13a5fb21937bf2972aaffd5577f661ac72789eca98bca28d3a19e",
+      "bytes": 69513,
+      "width": 638,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/5_2_1.jpg",
+      "sha256": "afbcc54d05e45c4fc8ace4f859fc837aac1dba59853c39af70100b8b0656efac",
+      "bytes": 3198,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/5_3.jpg",
+      "sha256": "b51d2eaa9a61bb2a3aafd9a2ea0a335538190e830b3b0688a77310eb32a823ca",
+      "bytes": 79423,
+      "width": 638,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/5_3_1.jpg",
+      "sha256": "e0191f7393c1c0329efacf9ec3809d5da93637d6532feb772f5e6252f6355539",
+      "bytes": 3027,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/6_1.jpg",
+      "sha256": "a38e4ff2c43c022144e2e5bb701965a59189f64c4c172a21475646db060c7fa7",
+      "bytes": 57877,
+      "width": 592,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/6_1_1.jpg",
+      "sha256": "a5564004e53b2e53ccfb19716cb0d720b32ca01e441f1f50e0efc588aff54915",
+      "bytes": 3122,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/6_2.jpg",
+      "sha256": "c499f39a142aff124b0526a46b77bedbe8a1f3eec5a14fae2d7923c3d2a154cc",
+      "bytes": 112941,
+      "width": 592,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/6_2_1.jpg",
+      "sha256": "0e597075debb621192c861d9cc79dbdfc734e8ba244ef61f6d0b7fab50260d27",
+      "bytes": 5055,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/6_3.jpg",
+      "sha256": "2a1ba970588938d15086772d3584fa18e8812efffa91e1854ad1a5b17e2d17bc",
+      "bytes": 63720,
+      "width": 592,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/6_3_1.jpg",
+      "sha256": "5c09441d382f5a13489528ce705e70e7d4296c91f3db3d0c9be311bae213a398",
+      "bytes": 3935,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/6_4.jpg",
+      "sha256": "da40defab119ddc86757064ee666a50ec128c7c8c5363d7da267e14d2232d7ad",
+      "bytes": 101572,
+      "width": 592,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/6_4_1.jpg",
+      "sha256": "c4de9acbf7081ede69c4ce8f1b9b1cbcfa517cc53821d60993ba42c7dda91bff",
+      "bytes": 5419,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/7_1.jpg",
+      "sha256": "ec133899f3016d533c76a7d15d372a36b561b2884222e2b13e168f56f0eca6d2",
+      "bytes": 6890,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/7_1_1.jpg",
+      "sha256": "878a86614050f20bb657e90a8c2d5a8bbe0b17a037947fbbf5065b3ac708cf40",
+      "bytes": 215076,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/7_2.jpg",
+      "sha256": "cea183b6e17cfbd104afaf75fcbddfb922f9d8b4a96730c028878e96174c8873",
+      "bytes": 7186,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/7_2_1.jpg",
+      "sha256": "60c71b88950efc2596e95144261ce7300fb0ceefd24850f6ca2f80c2ece132d7",
+      "bytes": 174679,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/7_3.jpg",
+      "sha256": "71ed0aa5b091821623065cca8979416baf2f128f7e5fd2ade4ec05bafb8e4281",
+      "bytes": 8437,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/7_3_1.jpg",
+      "sha256": "9005e620eb3a17c266a608cacd8bf12d8d60497c6b88851748ec75eca2d6aea0",
+      "bytes": 241893,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/7_4.jpg",
+      "sha256": "e181bd534a94343f204f88e0a6898c531becefb568d5a1fa0075c754d73d13dc",
+      "bytes": 8802,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/7_4_1.jpg",
+      "sha256": "0c330245233225d99ce951e702cfa5041d586b5a7031f07e0203fe1fc808e555",
+      "bytes": 187856,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/8_1.jpg",
+      "sha256": "596b03fad277504eedee2d3fcc0f8a5dfeedad99e2863fe662d9b3216e019cd9",
+      "bytes": 232815,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/8_1_1.jpg",
+      "sha256": "8652f4127183a26dafa93dc0eed1b57f424e5d815ae039e57da63c54bd3aad1b",
+      "bytes": 8437,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/8_2.jpg",
+      "sha256": "bfa63f7e03a88a9f6fb7dde246d870ad44636b094e1121e71dcedbf49876117c",
+      "bytes": 148584,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/8_2_1.jpg",
+      "sha256": "afaf59878bc7efd70127ef15678dfcd97ae4e9534dd620f797053758e06bee8d",
+      "bytes": 6414,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/8_3.jpg",
+      "sha256": "e67e104971ca1f74a4edaa285ffcd4dbd5145b2bb11af28a0e2349d290ea10e7",
+      "bytes": 199089,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/8_3_1.jpg",
+      "sha256": "71367dc287fe1375efbbc7f54b5c168386e3e43201fd2fd5884221d8b0c2c777",
+      "bytes": 8001,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/8_4.jpg",
+      "sha256": "cfab208538fb4ad6ddf78c878dd3f43f16f7977c45b8b6bc53a3104164b3bdcc",
+      "bytes": 264966,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/8_4_1.jpg",
+      "sha256": "095112aa7d248301882ae9e7e244584c3a1a4e23c987d47d8ea753433adfe2ec",
+      "bytes": 10779,
+      "width": 90,
+      "height": 85
+    },
+    {
+      "path": "images/vidu_kamnya/9_1.jpg",
+      "sha256": "4e80f900e3504cc46dd00d034220c455d49c8ccd242359e14053fa436ab96063",
+      "bytes": 123958,
+      "width": 567,
+      "height": 425
+    },
+    {
+      "path": "images/vidu_kamnya/9_1_1.jpg",
+      "sha256": "b2df5faaa624bac31d90184c8ea58d68d84bc6f20e6208c6daeb6cf5bbd53c79",
+      "bytes": 7868,
+      "width": 90,
+      "height": 85
+    }
+  ]
+}

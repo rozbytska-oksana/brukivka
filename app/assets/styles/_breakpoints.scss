@@ -1,0 +1,15 @@
+// Mobile styles are the default. These are the only viewport-width breakpoints.
+$medium: 768px;
+$x-large: 1200px;
+
+@mixin medium {
+  @media (min-width: $medium) {
+    @content;
+  }
+}
+
+@mixin x-large {
+  @media (min-width: $x-large) {
+    @content;
+  }
+}

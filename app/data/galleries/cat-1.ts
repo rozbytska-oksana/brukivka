@@ -1,0 +1,388 @@
+// Generated from brukivka.org original photos; see reference/legacy/asset-manifest.json.
+import type { ImageAsset } from '~/types/catalog';
+export default [
+  {
+    id: '19',
+    src: 'images/vidu_kamnya/1_4_1.jpg',
+    large: 'images/vidu_kamnya/1_4_1.jpg',
+    thumbnail: 'images/vidu_kamnya/1_4.jpg',
+    caption: 'Чорна 10х10х5 см · Габро',
+    alt: 'Чорна 10х10х5 см · Габро',
+    width: 600,
+    height: 496,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/1_4_1.jpg',
+        width: 600,
+      },
+    ],
+  },
+  {
+    id: '20',
+    src: 'images/new_cam/1_1.jpg',
+    large: 'images/new_cam/1_1.jpg',
+    thumbnail: 'images/new_cam/1_1_1.jpg',
+    caption: 'Чорна 10х10х5 см · Габро',
+    alt: 'Чорна 10х10х5 см · Габро',
+    width: 800,
+    height: 600,
+    variants: [
+      {
+        src: 'images/new_cam/1_1.jpg',
+        width: 800,
+      },
+    ],
+  },
+  {
+    id: '21',
+    src: 'images/vidu_kamnya/7_1_1.jpg',
+    large: 'images/vidu_kamnya/7_1_1.jpg',
+    thumbnail: 'images/vidu_kamnya/7_1.jpg',
+    caption: 'Чорна 10х10х10 см · Габро',
+    alt: 'Чорна 10х10х10 см · Габро',
+    width: 567,
+    height: 425,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/7_1_1.jpg',
+        width: 567,
+      },
+    ],
+  },
+  {
+    id: '22',
+    src: 'images/new_cam/1_2.jpg',
+    large: 'images/new_cam/1_2.jpg',
+    thumbnail: 'images/new_cam/1_2_1.jpg',
+    caption: 'Чорна 7х7х7 см · Габро',
+    alt: 'Чорна 7х7х7 см · Габро',
+    width: 800,
+    height: 600,
+    variants: [
+      {
+        src: 'images/new_cam/1_2.jpg',
+        width: 800,
+      },
+    ],
+  },
+  {
+    id: '23',
+    src: 'images/vidu_kamnya/7_2_1.jpg',
+    large: 'images/vidu_kamnya/7_2_1.jpg',
+    thumbnail: 'images/vidu_kamnya/7_2.jpg',
+    caption: '5х5х5 см · Габро',
+    alt: '5х5х5 см · Габро',
+    width: 567,
+    height: 425,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/7_2_1.jpg',
+        width: 567,
+      },
+    ],
+  },
+  {
+    id: '24',
+    src: 'images/new_cam/1_3.jpg',
+    large: 'images/new_cam/1_3.jpg',
+    thumbnail: 'images/new_cam/1_3_1.jpg',
+    caption: 'Укладена бруківка · Габро',
+    alt: 'Укладена бруківка · Габро',
+    width: 700,
+    height: 521,
+    variants: [
+      {
+        src: 'images/new_cam/1_3.jpg',
+        width: 700,
+      },
+    ],
+  },
+  {
+    id: '25',
+    src: 'images/vidu_kamnya/1_2_1.jpg',
+    large: 'images/vidu_kamnya/1_2_1.jpg',
+    thumbnail: 'images/vidu_kamnya/1_2.jpg',
+    caption: 'Сіра 10х10х5 см · Покостівська',
+    alt: 'Сіра 10х10х5 см · Покостівська',
+    width: 600,
+    height: 496,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/1_2_1.jpg',
+        width: 600,
+      },
+    ],
+  },
+  {
+    id: '26',
+    src: 'images/vidu_kamnya/1_6_1.jpg',
+    large: 'images/vidu_kamnya/1_6_1.jpg',
+    thumbnail: 'images/vidu_kamnya/1_6.jpg',
+    caption: 'Сіра 7х7х7 см · Покостівська',
+    alt: 'Сіра 7х7х7 см · Покостівська',
+    width: 600,
+    height: 496,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/1_6_1.jpg',
+        width: 600,
+      },
+    ],
+  },
+  {
+    id: '27',
+    src: 'images/vidu_kamnya/7_3_1.jpg',
+    large: 'images/vidu_kamnya/7_3_1.jpg',
+    thumbnail: 'images/vidu_kamnya/7_3.jpg',
+    caption: 'Сіра 5х5х5 см · Покостівська',
+    alt: 'Сіра 5х5х5 см · Покостівська',
+    width: 567,
+    height: 425,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/7_3_1.jpg',
+        width: 567,
+      },
+    ],
+  },
+  {
+    id: '28',
+    src: 'images/new_cam/1_4.jpg',
+    large: 'images/new_cam/1_4.jpg',
+    thumbnail: 'images/new_cam/1_4_1.jpg',
+    caption: 'Зелена 10х10х5 см · Човнова',
+    alt: 'Зелена 10х10х5 см · Човнова',
+    width: 800,
+    height: 600,
+    variants: [
+      {
+        src: 'images/new_cam/1_4.jpg',
+        width: 800,
+      },
+    ],
+  },
+  {
+    id: '29',
+    src: 'images/vidu_kamnya/1_3_1.jpg',
+    large: 'images/vidu_kamnya/1_3_1.jpg',
+    thumbnail: 'images/vidu_kamnya/1_3.jpg',
+    caption: 'Зелена 7х7х7 см · Човнова',
+    alt: 'Зелена 7х7х7 см · Човнова',
+    width: 600,
+    height: 496,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/1_3_1.jpg',
+        width: 600,
+      },
+    ],
+  },
+  {
+    id: '30',
+    src: 'images/new_cam/1_5.jpg',
+    large: 'images/new_cam/1_5.jpg',
+    thumbnail: 'images/new_cam/1_5_1.jpg',
+    caption: 'Зелена 5х5х5 см · Човнова',
+    alt: 'Зелена 5х5х5 см · Човнова',
+    width: 718,
+    height: 800,
+    variants: [
+      {
+        src: 'images/new_cam/1_5.jpg',
+        width: 718,
+      },
+    ],
+  },
+  {
+    id: '31',
+    src: 'images/new_cam/1_6.jpg',
+    large: 'images/new_cam/1_6.jpg',
+    thumbnail: 'images/new_cam/1_6_1.jpg',
+    caption: 'Червона 10х10х5 см · Лізник',
+    alt: 'Червона 10х10х5 см · Лізник',
+    width: 650,
+    height: 500,
+    variants: [
+      {
+        src: 'images/new_cam/1_6.jpg',
+        width: 650,
+      },
+    ],
+  },
+  {
+    id: '32',
+    src: 'images/new_cam/1_7.jpg',
+    large: 'images/new_cam/1_7.jpg',
+    thumbnail: 'images/new_cam/1_7_1.jpg',
+    caption: 'Червона 7х7х7 см · Лізник',
+    alt: 'Червона 7х7х7 см · Лізник',
+    width: 374,
+    height: 355,
+    variants: [
+      {
+        src: 'images/new_cam/1_7.jpg',
+        width: 374,
+      },
+    ],
+  },
+  {
+    id: '33',
+    src: 'images/new_cam/1_8.jpg',
+    large: 'images/new_cam/1_8.jpg',
+    thumbnail: 'images/new_cam/1_8_1.jpg',
+    caption: 'Червона 5х5х5 см · Лізник',
+    alt: 'Червона 5х5х5 см · Лізник',
+    width: 800,
+    height: 600,
+    variants: [
+      {
+        src: 'images/new_cam/1_8.jpg',
+        width: 800,
+      },
+    ],
+  },
+  {
+    id: '34',
+    src: 'images/vidu_kamnya/1_1_1.jpg',
+    large: 'images/vidu_kamnya/1_1_1.jpg',
+    thumbnail: 'images/vidu_kamnya/1_1.jpg',
+    caption: 'Червона 10х10х5 см · Омелянівське',
+    alt: 'Червона 10х10х5 см · Омелянівське',
+    width: 450,
+    height: 417,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/1_1_1.jpg',
+        width: 450,
+      },
+    ],
+  },
+  {
+    id: '35',
+    src: 'images/new_cam/1_9.jpg',
+    large: 'images/new_cam/1_9.jpg',
+    thumbnail: 'images/new_cam/1_9_1.jpg',
+    caption: 'Червона 7х7х7 см · Омелянівське',
+    alt: 'Червона 7х7х7 см · Омелянівське',
+    width: 420,
+    height: 420,
+    variants: [
+      {
+        src: 'images/new_cam/1_9.jpg',
+        width: 420,
+      },
+    ],
+  },
+  {
+    id: '36',
+    src: 'images/new_cam/1_10.jpg',
+    large: 'images/new_cam/1_10.jpg',
+    thumbnail: 'images/new_cam/1_10_1.jpg',
+    caption: 'Червона 5х5х5 см · Омелянівське',
+    alt: 'Червона 5х5х5 см · Омелянівське',
+    width: 800,
+    height: 600,
+    variants: [
+      {
+        src: 'images/new_cam/1_10.jpg',
+        width: 800,
+      },
+    ],
+  },
+  {
+    id: '37',
+    src: 'images/vidu_kamnya/1_5_1.jpg',
+    large: 'images/vidu_kamnya/1_5_1.jpg',
+    thumbnail: 'images/vidu_kamnya/1_5.jpg',
+    caption: 'Червона 10х10х5 см · Лізник',
+    alt: 'Червона 10х10х5 см · Лізник',
+    width: 600,
+    height: 496,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/1_5_1.jpg',
+        width: 600,
+      },
+    ],
+  },
+  {
+    id: '38',
+    src: 'images/vidu_kamnya/7_4_1.jpg',
+    large: 'images/vidu_kamnya/7_4_1.jpg',
+    thumbnail: 'images/vidu_kamnya/7_4.jpg',
+    caption: 'Червона Омелянівське · 10х10х5 см',
+    alt: 'Червона Омелянівське · 10х10х5 см',
+    width: 567,
+    height: 425,
+    variants: [
+      {
+        src: 'images/vidu_kamnya/7_4_1.jpg',
+        width: 567,
+      },
+    ],
+  },
+  {
+    id: '39',
+    src: 'images/new_cam/1_11.jpg',
+    large: 'images/new_cam/1_11.jpg',
+    thumbnail: 'images/new_cam/1_11_1.jpg',
+    caption: 'Зелена · Човнова',
+    alt: 'Зелена · Човнова',
+    width: 800,
+    height: 600,
+    variants: [
+      {
+        src: 'images/new_cam/1_11.jpg',
+        width: 800,
+      },
+    ],
+  },
+  {
+    id: '40',
+    src: 'images/new_cam/1_12.jpg',
+    large: 'images/new_cam/1_12.jpg',
+    thumbnail: 'images/new_cam/1_12_1.jpg',
+    caption: 'Червона · Лізник',
+    alt: 'Червона · Лізник',
+    width: 800,
+    height: 600,
+    variants: [
+      {
+        src: 'images/new_cam/1_12.jpg',
+        width: 800,
+      },
+    ],
+  },
+  {
+    id: '41',
+    src: 'images/new_cam/1_13.jpg',
+    large: 'images/new_cam/1_13.jpg',
+    thumbnail: 'images/new_cam/1_13_1.jpg',
+    caption: 'Темно-сіра 5х5х5 см · Бабани',
+    alt: 'Темно-сіра 5х5х5 см · Бабани',
+    width: 800,
+    height: 600,
+    variants: [
+      {
+        src: 'images/new_cam/1_13.jpg',
+        width: 800,
+      },
+    ],
+  },
+  {
+    id: '42',
+    src: 'images/new_cam/1_14.jpg',
+    large: 'images/new_cam/1_14.jpg',
+    thumbnail: 'images/new_cam/1_14_1.jpg',
+    caption: 'Укладання · двокольорове',
+    alt: 'Укладання · двокольорове',
+    width: 800,
+    height: 600,
+    variants: [
+      {
+        src: 'images/new_cam/1_14.jpg',
+        width: 800,
+      },
+    ],
+  },
+] satisfies ImageAsset[];

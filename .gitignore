@@ -1,0 +1,30 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+coverage
+__pycache__/
+*.pyc
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Download cache; verified originals are committed once under public/images.
+/reference/legacy/site/images/
+
+# Local env files
+.env
+.env.*
+!.env.example

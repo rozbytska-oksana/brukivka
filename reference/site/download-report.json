@@ -1,0 +1,1676 @@
+{
+  "source_url": "https://nexgen-fullstack.github.io/brukivka-site/",
+  "generated_at": "2026-10-20T10:37:39.718755+00:00",
+  "results": [
+    {
+      "path": "apple-touch-icon.png",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/apple-touch-icon.png",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "favicon.png",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/favicon.png",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/logo-dark.png",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/logo-dark.png",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/logo.png",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/logo.png",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/01-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/01-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/01-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/01-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/01-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/01-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/02-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/02-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/02-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/02-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/03-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/03-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/03-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/03-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/04-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/04-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/04-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/04-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/05-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/05-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/05-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/05-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/05-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/05-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/06-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/06-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/06-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/06-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/07-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/07-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/07-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/07-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/08-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/08-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/08-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/08-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/09-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/09-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/09-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/09-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/10-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/10-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/10-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/10-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/11-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/11-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/11-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/11-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/11-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/11-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/12-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/12-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/12-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/12-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/12-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/12-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/13-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/13-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/13-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/13-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/13-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/13-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/14-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/14-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/14-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/14-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/objects/14-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/objects/14-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/01-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/01-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/01-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/01-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/02-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/02-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/02-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/02-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/03-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/03-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/03-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/03-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/04-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/04-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/04-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/04-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/05-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/05-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/05-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/05-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/06-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/06-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/06-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/06-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/07-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/07-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/07-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/07-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/08-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/08-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/08-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/08-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/09-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/09-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/09-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/09-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/10-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/10-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/10-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/10-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/11-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/11-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/11-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/11-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/12-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/12-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/12-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/12-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/13-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/13-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/13-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/13-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/14-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/14-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/14-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/14-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/15-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/15-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/15-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/15-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/16-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/16-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/16-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/16-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/17-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/17-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/17-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/17-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/18-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/18-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/18-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/18-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/19-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/19-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/19-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/19-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/20-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/20-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/20-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/20-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/21-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/21-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/21-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/21-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/22-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/22-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/22-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/22-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/23-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/23-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/23-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/23-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/24-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/24-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p1/24-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p1/24-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/01-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/01-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/01-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/01-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/02-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/02-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/02-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/02-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/03-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/03-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/03-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/03-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/04-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/04-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/04-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/04-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/05-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/05-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/05-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/05-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/06-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/06-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/06-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/06-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/07-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/07-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/07-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/07-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/08-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/08-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/08-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/08-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/09-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/09-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/09-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/09-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/10-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/10-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/10-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/10-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/11-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/11-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/11-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/11-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/12-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/12-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/12-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/12-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/13-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/13-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/13-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/13-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/14-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/14-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/14-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/14-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/15-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/15-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/15-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/15-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/16-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/16-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/16-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/16-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/17-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/17-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/17-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/17-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/18-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/18-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p2/18-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p2/18-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/01-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/01-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/01-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/01-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/02-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/02-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/02-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/02-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/03-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/03-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/03-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/03-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/04-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/04-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/04-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/04-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/05-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/05-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/05-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/05-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/06-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/06-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/06-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/06-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/07-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/07-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/07-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/07-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/08-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/08-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/08-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/08-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/09-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/09-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/09-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/09-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/10-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/10-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/10-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/10-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/11-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/11-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/11-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/11-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/12-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/12-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p3/12-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p3/12-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/01-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/01-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/01-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/01-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/02-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/02-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/02-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/02-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/03-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/03-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/03-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/03-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/04-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/04-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/04-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/04-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/05-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/05-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/05-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/05-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/06-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/06-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/06-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/06-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/07-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/07-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/07-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/07-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/08-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/08-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/08-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/08-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/09-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/09-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/09-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/09-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/10-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/10-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/10-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/10-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/11-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/11-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/11-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/11-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/12-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/12-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/12-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/12-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/13-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/13-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/13-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/13-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/14-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/14-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/14-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/14-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/15-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/15-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/15-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/15-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/16-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/16-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/16-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/16-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/17-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/17-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/17-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/17-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/18-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/18-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p4/18-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p4/18-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/01-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/01-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/01-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/01-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/02-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/02-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/02-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/02-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/03-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/03-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/03-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/03-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/04-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/04-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/04-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/04-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/05-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/05-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/05-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/05-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/06-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/06-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/06-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/06-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/07-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/07-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/07-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/07-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/08-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/08-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/08-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/08-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/09-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/09-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/09-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/09-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/10-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/10-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/10-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/10-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/11-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/11-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/11-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/11-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/12-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/12-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p5/12-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p5/12-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p6/01-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p6/01-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p6/01-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p6/01-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p6/02-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p6/02-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p6/02-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p6/02-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p6/03-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p6/03-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p6/03-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p6/03-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/01-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/01-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/01-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/01-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/02-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/02-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/02-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/02-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/03-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/03-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/03-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/03-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/04-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/04-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/04-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/04-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/05-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/05-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/05-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/05-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/06-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/06-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/p7/06-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/p7/06-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/01-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/01-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/01-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/01-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/01-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/01-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/02-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/02-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/02-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/02-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/02-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/02-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/03-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/03-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/03-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/03-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/03-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/03-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/04-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/04-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/04-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/04-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/04-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/04-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/05-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/05-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/05-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/05-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/05-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/05-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/06-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/06-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/06-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/06-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/06-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/06-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/07-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/07-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/07-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/07-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/07-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/07-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/08-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/08-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/08-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/08-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/08-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/08-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/09-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/09-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/09-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/09-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/09-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/09-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/10-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/10-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/10-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/10-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/10-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/10-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/11-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/11-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/11-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/11-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/11-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/11-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/12-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/12-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/12-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/12-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/12-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/12-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/13-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/13-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/13-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/13-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/13-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/13-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/14-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/14-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/14-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/14-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/14-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/14-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/15-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/15-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/15-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/15-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/15-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/15-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/16-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/16-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/16-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/16-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/16-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/16-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/17-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/17-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/17-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/17-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/17-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/17-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/18-l.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/18-l.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/18-s.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/18-s.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "img/stones/18-t.webp",
+      "url": "https://nexgen-fullstack.github.io/brukivka-site/img/stones/18-t.webp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "success_count": 0,
+  "failure_count": 278
+}

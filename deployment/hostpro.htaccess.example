@@ -1,0 +1,31 @@
+# Only for confirmed Apache-compatible hosting, baseURL=/.
+# Copy into the actual document root after backup and server review.
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+# Exact old URLs move to real landing sections, retaining HTTP 301.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(?:kataloh|productsandservices)(?:/index\.html|/)?$ /#kataloh [R=301,L,NE]
+  RewriteRule ^(?:kamin|typesofstone)(?:/index\.html|/)?$ /#kamin [R=301,L,NE]
+  RewriteRule ^(?:roboty|finishedobjects)(?:/index\.html|/)?$ /#roboty [R=301,L,NE]
+  RewriteRule ^posluhy(?:/index\.html|/)?$ /#posluhy [R=301,L,NE]
+  RewriteRule ^(?:kontakty|contact)(?:/index\.html|/)?$ /#kontakty [R=301,L,NE]
+  RewriteRule ^aboutus(?:/index\.html|/)?$ /#pro-kamin [R=301,L,NE]
+
+  # Only explicit browser requests, never Apache's internal DirectoryIndex lookup.
+  RewriteCond %{THE_REQUEST} \s/+[^?\s]*index\.html(?:[?\s]) [NC]
+  RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L,NE]
+
+  # Confirm TLS/proxy behavior before enabling host/protocol normalization.
+  # A reverse proxy may need different HTTPS detection; avoid redirect loops.
+  # RewriteCond %{HTTPS} !=on [OR]
+  # RewriteCond %{HTTP_HOST} !^brukivka\.org$ [NC]
+  # RewriteRule ^ https://brukivka.org%{REQUEST_URI} [R=301,L,NE]
+</IfModule>
+# Deliberately no SPA rewrite to index.html: missing URLs keep HTTP 404.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|xml|txt)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
