@@ -317,6 +317,12 @@ README, reference/README, AGENTS і DEPLOYMENT оновлено. Додана т
 
 Не перевірено: workflow на GitHub runner, фактичний Pages URL/HTTP, UI та hydration у браузері. Browser discovery знову повернув порожній список; підтримуваного браузера немає. Локальні HTML/HTTP-перевірки не підмінюють цю перевірку. Наступний крок — користувачка створює окремий репозиторій, завантажує source, налаштовує Pages та запускає workflow без публікації; після цього окремо обирає публічний деплой.
 
+## Node.js 24 для Pages actions — 21.10.2026
+
+Користувачка повідомила про warning Node.js 20 у GitHub Actions. Це runtime службових actions, а не Node застосунку: .nvmrc вже містить 24.22.0. За офіційними action.yml/release notes оновлено configure-pages v5 → v6, upload-pages-artifact v4 → v5 та deploy-pages v4 → v5. configure/deploy використовують node24; новий upload composite використовує upload-artifact v7 замість старого Node20 action. Для upload v5 явно додано include-hidden-files: true, щоб не вилучити .nojekyll; джерелом залишається виключно перевірений .output/public. base_url/base_path, права, ручний workflow_dispatch і publish=false за замовчуванням збережено.
+
+Локально перевірено YAML, версії та незмінність deployment gates/шляху artifact; форматування змінених файлів. Повні тести, typecheck та generate не запускалися: зміна лише CI-конфігурації. Новий запуск на GitHub ще не виконано; наступний крок — commit/push користувачкою та новий Run workflow на main, оскільки повторний запуск старого run використовує стару ревізію workflow. Публікація агентом не виконувалася.
+
 ## Email як початковий спосіб звернення — 21.10.2026
 
 За запитом користувачки у ContactPanel початковим способом звернення встановлено email; опцію Email переміщено першою у списку. WhatsApp залишається доступним для вибору, demo-обмеження збережені. Перевірено лише форматування змінених файлів; повні перевірки й генерація не запускалися відповідно до домовленості для дрібних змін.

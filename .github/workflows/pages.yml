@@ -51,7 +51,7 @@ jobs:
 
       - name: Read GitHub Pages URL
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Generate and verify static demo
         env:
@@ -63,9 +63,10 @@ jobs:
           npm run verify:http
 
       - name: Upload static site only
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: .output/public
+          include-hidden-files: true
 
   deploy:
     name: Publish demo
@@ -82,4 +83,4 @@ jobs:
     steps:
       - name: Deploy verified artifact
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
