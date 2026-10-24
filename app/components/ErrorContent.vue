@@ -10,7 +10,7 @@
       :href="home"
       class="button primary"
     >
-      На головну ↗
+      На головну
     </a>
   </main>
 </template>

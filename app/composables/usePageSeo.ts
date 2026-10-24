@@ -1,4 +1,5 @@
 import { assetDimensions } from '~/data/available-assets';
+import { editedImages, editedImageDimensions } from '~/data/edited-images';
 import { absoluteSiteUrl, canonicalPageUrl, serializeJsonLd } from '~/utils/seo';
 
 export function usePageSeo(
@@ -10,8 +11,9 @@ export function usePageSeo(
   const config = useRuntimeConfig().public;
   const route = useRoute();
   const canonical = computed(() => canonicalPageUrl(config.siteURL, route.path));
-  const absoluteImage = absoluteSiteUrl(config.siteURL, image);
-  const dimensions = assetDimensions[image];
+  const socialImage = editedImages[image]?.large ?? image;
+  const absoluteImage = absoluteSiteUrl(config.siteURL, socialImage);
+  const dimensions = editedImageDimensions[socialImage] ?? assetDimensions[socialImage];
   const pageTitle = `${title} · BRUKIVKA`;
   useSeoMeta({
     title,

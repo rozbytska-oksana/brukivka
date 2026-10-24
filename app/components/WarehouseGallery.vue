@@ -77,7 +77,7 @@
           class="text-link warehouse-collapse"
           @click="closeGallery"
         >
-          <span class="text-link-label">Згорнути добірку ↑</span>
+          <span class="text-link-label">Згорнути добірку</span>
         </button>
       </div>
     </details>

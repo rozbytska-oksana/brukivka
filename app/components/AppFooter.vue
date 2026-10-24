@@ -84,7 +84,7 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span class="text-link-label">наданого референсу ↗</span>
+        <span class="text-link-label">наданого референсу</span>
       </a>. Розробка на Nuxt / Vue.
     </p>
     <p

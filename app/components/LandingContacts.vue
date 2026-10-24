@@ -65,7 +65,7 @@
               rel="noopener noreferrer"
               :aria-label="`${messenger.label}: ${phone.label}`"
             >
-              <span class="text-link-label">{{ messenger.label }} ↗</span>
+              <span class="text-link-label">{{ messenger.label }}</span>
             </a>
           </div>
         </div>
@@ -100,7 +100,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span class="text-link-label">Прокласти маршрут ↗</span>
+            <span class="text-link-label">Прокласти маршрут</span>
           </a>
         </div>
       </div>
@@ -127,7 +127,7 @@
           class="button"
           @click="mapVisible = true"
         >
-          Показати карту ↗
+          Показати карту
         </button>
       </div>
     </section>

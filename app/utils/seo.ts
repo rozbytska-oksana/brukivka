@@ -1,4 +1,5 @@
 import { businessContacts } from '../data/contacts.ts';
+import { editedImages } from '../data/edited-images.ts';
 
 export function absoluteSiteUrl(siteURL: string, path = ''): string | undefined {
   return siteURL ? new URL(path.replace(/^\//, ''), siteURL).href : undefined;
@@ -26,7 +27,7 @@ export function businessSchema(siteURL: string) {
       width: 512,
       height: 512,
     },
-    image: absoluteSiteUrl(siteURL, 'images/obcekt/1_12.jpg'),
+    image: absoluteSiteUrl(siteURL, editedImages['images/obcekt/1_12.jpg']!.large),
     hasMap: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${businessContacts.address.city}, ${businessContacts.address.street}`)}`,
     foundingDate: String(businessContacts.sinceYear),
     telephone: businessContacts.phones.map((phone) => phone.number),

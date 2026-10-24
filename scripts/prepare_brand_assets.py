@@ -40,14 +40,11 @@ def logo_svg(theme):
         f'transform="translate({glyph["x"]} {word["baselineOffset"]})"/>'
         for glyph in word["glyphs"]
     )
-    dot = word["dot"]
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{word["viewBox"]}" '
         'width="360" height="64" role="img" aria-label="BRUKIVKA">'
         f'<g fill="{colors["accent"]}">{mark_svg()}</g>'
-        f'<g fill="{colors["ink"]}" fill-rule="evenodd">{letters}</g>'
-        f'<rect x="{dot["x"]}" y="{dot["y"]}" width="{dot["size"]}" '
-        f'height="{dot["size"]}" fill="{colors["accent"]}"/></svg>\n'
+        f'<g fill="{colors["ink"]}" fill-rule="evenodd">{letters}</g></svg>\n'
     )
 
 
@@ -91,11 +88,6 @@ def draw_logo(canvas, width, height, scale, x, y, theme):
         polygon_fill(canvas, width, height,
                      transform(contours, scale, x + glyph["x"] * scale,
                                y + word["baselineOffset"] * scale), rgba(colors["ink"]))
-    dot = word["dot"]
-    dx, dy, size = dot["x"], dot["y"], dot["size"]
-    polygon_fill(canvas, width, height,
-                 transform([[(dx, dy), (dx + size, dy), (dx + size, dy + size), (dx, dy + size)]],
-                           scale, x, y), rgba(colors["accent"]))
 
 
 def downsample(canvas, width, height):

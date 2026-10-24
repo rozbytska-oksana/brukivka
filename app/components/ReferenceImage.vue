@@ -14,7 +14,7 @@
     role="img"
     :aria-label="`${alt}. Оригінальне фото поки недоступне.`"
   >
-    <span aria-hidden="true">▧</span>
+    <AppIcon name="image" />
     <span>{{ alt }}</span>
     <small>Очікуємо оригінальне фото</small>
   </div>
@@ -43,8 +43,9 @@ const asset = useAsset();
   padding: 24px;
   font-size: var(--text-small);
 
-  > span:first-child {
-    font-size: 2rem;
+  > .app-icon {
+    width: 2rem;
+    height: 2rem;
     opacity: 0.6;
   }
   small {

@@ -9,17 +9,17 @@
       <NuxtLink to="/#kataloh">
         <strong>06</strong>
         <span>категорій виробів</span>
-        <span aria-hidden="true">↗</span>
+        <AppIcon name="arrow-up-right" />
       </NuxtLink>
       <NuxtLink to="/#kamin">
         <strong>18</strong>
         <span>зразків каменю</span>
-        <span aria-hidden="true">↗</span>
+        <AppIcon name="arrow-up-right" />
       </NuxtLink>
       <NuxtLink to="/#roboty">
         <strong>14</strong>
         <span>фото готових об’єктів</span>
-        <span aria-hidden="true">↗</span>
+        <AppIcon name="arrow-up-right" />
       </NuxtLink>
     </div>
 
@@ -110,7 +110,7 @@
             class="text-link"
             to="/#kamin"
           >
-            <span class="text-link-label">Знайти свій камінь ↗</span>
+            <span class="text-link-label">Знайти свій камінь</span>
           </NuxtLink>
         </div>
       </div>
@@ -219,8 +219,8 @@
             <div>
               <h3>Доставка до вашого об’єкта</h3>
               <p>
-                По Україні та за кордон. Для обговорення підготуйте населений пункт, назву виробу й
-                орієнтовний обсяг.
+                По Україні та за кордон. Для обговорення повідомте про населений пункт, назву виробу
+                й орієнтовний обсяг.
               </p>
             </div>
             <svg
@@ -339,7 +339,7 @@ usePageSeo(
         color: var(--muted);
         overflow-wrap: anywhere;
       }
-      > span:last-child {
+      > .app-icon {
         margin-left: auto;
         color: var(--accent);
         transition: transform 0.25s;
@@ -353,7 +353,7 @@ usePageSeo(
         }
       }
       @media (hover: hover) and (prefers-reduced-motion: no-preference) {
-        &:hover > span:last-child {
+        &:hover > .app-icon {
           transform: translate(3px, -3px);
         }
       }

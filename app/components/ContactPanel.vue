@@ -44,7 +44,7 @@
         to="/#kataloh"
         class="text-link"
       >
-        <span class="text-link-label">Повернутися до каталогу ↗</span>
+        <span class="text-link-label">Повернутися до каталогу</span>
       </NuxtLink>
     </div>
     <div class="contact-intent">
@@ -88,7 +88,7 @@
         :target="channel === 'whatsapp' ? '_blank' : undefined"
         rel="noopener"
       >
-        {{ channel === 'whatsapp' ? 'Відкрити WhatsApp' : 'Відкрити поштовий застосунок' }} ↗
+        {{ channel === 'whatsapp' ? 'Відкрити WhatsApp' : 'Відкрити поштовий застосунок' }}
       </a>
       <p class="small muted">
         Текст відкриється у вибраному застосунку. Надсилання ви підтверджуєте там самостійно.

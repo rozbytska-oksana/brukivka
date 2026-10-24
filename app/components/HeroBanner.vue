@@ -39,13 +39,12 @@
             to="/#kataloh"
           >
             Обрати камінь
-            <span aria-hidden="true">↗</span>
           </NuxtLink>
           <NuxtLink
             class="text-link"
             to="/#zvernennia"
           >
-            <span class="text-link-label">Обговорити проєкт ↗</span>
+            <span class="text-link-label">Обговорити проєкт</span>
           </NuxtLink>
         </div>
         <div class="hero-notes">
@@ -65,7 +64,10 @@
           class="scroll-cue link-effect"
           to="/#kataloh"
         >
-          <span aria-hidden="true">↓</span>
+          <AppIcon
+            class="scroll-cue-icon"
+            name="arrow-down"
+          />
           <span class="text-link-label">Відкрийте палітру можливостей</span>
         </NuxtLink>
         <button
@@ -323,8 +325,7 @@ h1 {
   font-size: var(--text-small);
   color: var(--text);
   transition: color 0.22s;
-  > span[aria-hidden] {
-    font-size: 1.3rem;
+  > .scroll-cue-icon {
     color: var(--accent);
     transition: transform 0.2s;
     @media (prefers-reduced-motion: reduce) {
@@ -340,7 +341,7 @@ h1 {
     }
   }
   @media (hover: hover) and (prefers-reduced-motion: no-preference) {
-    &:hover > span[aria-hidden] {
+    &:hover > .scroll-cue-icon {
       transform: translateY(4px);
     }
   }

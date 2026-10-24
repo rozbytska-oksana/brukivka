@@ -6,6 +6,7 @@ import { sectionNavigation } from '../app/data/navigation.ts';
 import { businessContacts } from '../app/data/contacts.ts';
 import { categories } from '../app/data/categories.ts';
 import { assetDimensions } from '../app/data/available-assets.ts';
+import { editedImages, editedImageDimensions } from '../app/data/edited-images.ts';
 
 const base = process.env.NUXT_APP_BASE_URL || '/';
 const demo = (process.env.BRUKIVKA_TARGET || 'production') === 'demo';
@@ -13,6 +14,21 @@ const indexable = !demo && process.env.BRUKIVKA_ALLOW_INDEXING === 'true';
 const site =
   process.env.BRUKIVKA_SITE_URL?.replace(/\/?$/, '/') || (demo ? '' : businessContacts.siteURL);
 const output = resolve('.output/public');
+const editedDirectory = 'images/edited';
+const editedFiles = (await readdir(resolve('public', editedDirectory))).sort();
+assert.deepEqual(
+  (await readdir(resolve(output, editedDirectory))).sort(),
+  editedFiles,
+  'No stale or missing edited images in the release output',
+);
+for (const file of editedFiles) {
+  assert.ok(
+    (await readFile(resolve(output, editedDirectory, file))).equals(
+      await readFile(resolve('public', editedDirectory, file)),
+    ),
+    `Current edited image bytes in output: ${file}`,
+  );
+}
 // Only the generated site is deployable; sources, local settings and link-based
 // copies cannot enter the Pages artifact.
 for (const name of await readdir(output)) {
@@ -180,6 +196,17 @@ for (const route of siteRoutes) {
   );
   if (route !== '/') {
     const category = categories.find((item) => route === `/kataloh/${item.slug}/`);
+    const { default: photos } = await import(`../app/data/galleries/${category.group}.ts`);
+    for (const photo of photos) {
+      const edited = editedImages[photo.src];
+      assert.ok(edited, `Cleaned catalogue photo: ${photo.id}`);
+      assert.ok(html.includes(`href="${base}${edited.large}"`), `Cleaned lightbox: ${photo.id}`);
+      assert.ok(html.includes(`src="${base}${edited.src}"`), `Cleaned preview: ${photo.id}`);
+      assert.ok(
+        html.includes(`${base}${edited.large} 960w`),
+        `Responsive catalogue photo: ${photo.id}`,
+      );
+    }
     assert.ok(html.includes(category.guide.title), `Visible category advice: ${route}`);
     assert.ok(
       html.includes('Що підготувати для обговорення'),
@@ -225,13 +252,16 @@ for (const route of siteRoutes) {
     assert.ok(image?.startsWith(site), `Absolute site image: ${route}`);
     assert.deepEqual(metaValues(html, 'twitter:image'), [image], `Matching social image: ${route}`);
     const imagePath = decodeURIComponent(image.slice(site.length));
+    const originalImage =
+      route === '/'
+        ? 'images/obcekt/1_12.jpg'
+        : categories.find((category) => route === `/kataloh/${category.slug}/`)?.cover;
+    assert.ok(originalImage, `Known social image: ${route}`);
+    assert.equal(imagePath, editedImages[originalImage]?.large ?? originalImage);
+    const dimensions = editedImageDimensions[imagePath] ?? assetDimensions[imagePath];
     assert.ok((await stat(resolve(output, imagePath))).isFile(), `Existing OG image: ${route}`);
-    assert.deepEqual(metaValues(html, 'og:image:width'), [
-      String(assetDimensions[imagePath].width),
-    ]);
-    assert.deepEqual(metaValues(html, 'og:image:height'), [
-      String(assetDimensions[imagePath].height),
-    ]);
+    assert.deepEqual(metaValues(html, 'og:image:width'), [String(dimensions.width)]);
+    assert.deepEqual(metaValues(html, 'og:image:height'), [String(dimensions.height)]);
     const page = schemas.find(
       (schema) => schema['@type'] === (route === '/' ? 'WebPage' : 'CollectionPage'),
     );

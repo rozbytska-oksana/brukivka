@@ -50,7 +50,7 @@
           class="text-link"
           to="/#kataloh"
         >
-          <span class="text-link-label">Увесь каталог ↗</span>
+          <span class="text-link-label">Увесь каталог</span>
         </NuxtLink>
       </div>
       <div class="related">
@@ -60,7 +60,7 @@
           :to="`/kataloh/${other.slug}/`"
           class="button"
         >
-          {{ other.title }} ↗
+          {{ other.title }}
         </NuxtLink>
       </div>
     </section>
@@ -69,6 +69,7 @@
 
 <script setup lang="ts">
 import { categories } from '~/data/categories';
+import { withEditedImage } from '~/data/edited-images';
 import type { ImageAsset } from '~/types/catalog';
 const route = useRoute();
 const category = categories.find((c) => c.slug === route.params.slug);
@@ -81,9 +82,8 @@ const loaders: Record<string, () => Promise<{ default: ImageAsset[] }>> = {
   'cat-5': () => import('~/data/galleries/cat-5'),
   'cat-6': () => import('~/data/galleries/cat-6'),
 };
-const { data: items } = await useAsyncData(
-  `gallery-${category.group}`,
-  async () => (await loaders[category.group]!()).default,
+const { data: items } = await useAsyncData(`gallery-${category.group}`, async () =>
+  (await loaders[category.group]!()).default.map(withEditedImage),
 );
 const root = ref<HTMLElement | null>(null);
 useReveal(root);

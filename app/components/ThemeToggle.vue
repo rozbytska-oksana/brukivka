@@ -9,13 +9,13 @@
       class="theme-sun"
       aria-hidden="true"
     >
-      ☼
+      <AppIcon name="sun" />
     </span>
     <span
       class="theme-moon"
       aria-hidden="true"
     >
-      ☾
+      <AppIcon name="moon" />
     </span>
   </button>
 </template>
@@ -26,7 +26,6 @@ const { toggle } = useTheme();
 
 <style scoped lang="scss">
 .theme-toggle {
-  font-size: 1.5rem;
   @media (hover: hover) and (prefers-reduced-motion: no-preference) {
     &:hover > span {
       transform: rotate(20deg);
@@ -38,6 +37,10 @@ const { toggle } = useTheme();
   }
 }
 
+.theme-sun {
+  display: inline-flex;
+}
+
 .theme-moon {
   display: none;
 }
@@ -45,6 +48,6 @@ const { toggle } = useTheme();
   display: none;
 }
 :global([data-theme='light'] .theme-moon) {
-  display: inline;
+  display: inline-flex;
 }
 </style>

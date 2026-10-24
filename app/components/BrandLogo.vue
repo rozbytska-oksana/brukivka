@@ -25,13 +25,6 @@
         fill-rule="evenodd"
       />
     </g>
-    <rect
-      class="brand-logo__dot"
-      :x="geometry.wordmark.dot.x"
-      :y="geometry.wordmark.dot.y"
-      :width="geometry.wordmark.dot.size"
-      :height="geometry.wordmark.dot.size"
-    />
   </svg>
 </template>
 
@@ -73,8 +66,7 @@ const glyphs = geometry.wordmark.glyphs.map((glyph) => ({
     }
   }
 
-  &__mark,
-  &__dot {
+  &__mark {
     fill: var(--accent);
 
     @media (forced-colors: active) {

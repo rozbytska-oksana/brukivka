@@ -46,7 +46,7 @@
           :aria-expanded="opened"
           @click="open"
         >
-          <span aria-hidden="true">☰</span>
+          <AppIcon name="menu" />
         </button>
       </div>
     </div>
@@ -82,7 +82,7 @@
             autofocus
             @click="close"
           >
-            ×
+            <AppIcon name="close" />
           </button>
         </div>
         <nav aria-label="Мобільна навігація">
@@ -97,7 +97,6 @@
           >
             <span class="eyebrow">0{{ i + 1 }}</span>
             <span class="text-link-label">{{ item.label }}</span>
-            <span aria-hidden="true">↗</span>
           </NuxtLink>
         </nav>
         <div
@@ -302,7 +301,7 @@ nav a[aria-current='location'] {
       a {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         gap: 16px;
         padding: 22px 0;
         font-size: clamp(1.25rem, 5vw, 2rem);

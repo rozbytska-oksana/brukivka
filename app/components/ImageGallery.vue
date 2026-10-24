@@ -78,14 +78,19 @@
         class="lightbox-content"
       >
         <div class="lightbox-top">
-          <span class="eyebrow">{{ label }} / {{ index + 1 }} з {{ items.length }}</span>
+          <span
+            class="eyebrow lightbox-label"
+            tabindex="-1"
+            autofocus
+          >
+            {{ label }} / {{ index + 1 }} з {{ items.length }}
+          </span>
           <button
             class="icon-button"
             aria-label="Закрити галерею"
-            autofocus
             @click="close"
           >
-            ×
+            <AppIcon name="close" />
           </button>
         </div>
         <div
@@ -133,7 +138,7 @@
               class="link-effect"
               :href="asset(current.large)"
             >
-              <span class="text-link-label">Відкрити фото ↗</span>
+              <span class="text-link-label">Відкрити фото</span>
             </a>
           </p>
         </div>
@@ -143,7 +148,7 @@
             aria-label="Попереднє фото"
             @click="move(-1)"
           >
-            ←
+            <AppIcon name="arrow-left" />
           </button>
           <p
             aria-live="polite"
@@ -156,7 +161,7 @@
             aria-label="Наступне фото"
             @click="move(1)"
           >
-            →
+            <AppIcon name="arrow-right" />
           </button>
         </div>
       </div>
@@ -412,6 +417,9 @@ function swipe(event: TouchEvent) {
     @include bp.medium {
       letter-spacing: 0.02em;
     }
+  }
+  &-label {
+    outline: none;
   }
   &-bottom p {
     min-width: 0;

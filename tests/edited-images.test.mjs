@@ -1,12 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { editedImages, editedImageDimensions, withEditedImage } from '../app/data/edited-images.ts';
 import { categories } from '../app/data/categories.ts';
 import projects from '../app/data/galleries/objects.ts';
 import warehouse from '../app/data/galleries/cat-7.ts';
 import stones from '../app/data/galleries/stones.ts';
+
+const categoryItems = (
+  await Promise.all(
+    categories.map((category) => import(`../app/data/galleries/${category.group}.ts`)),
+  )
+).flatMap((gallery) => gallery.default);
 
 function jpegDimensions(buffer) {
   assert.equal(buffer.readUInt16BE(0), 0xffd8);
@@ -23,6 +29,7 @@ function jpegDimensions(buffer) {
 }
 
 test('edited photos have accurate dimensions and bounded preview/full-size bytes', async () => {
+  const variantHashes = new Set();
   const report = JSON.parse(
     await readFile(new URL('../reference/legacy/copy-report.json', import.meta.url)),
   );
@@ -42,6 +49,9 @@ test('edited photos have accurate dimensions and bounded preview/full-size bytes
     assert.equal(image.large, image.variants[1].src);
     for (const variant of image.variants) {
       const bytes = await readFile(new URL(`../public/${variant.src}`, import.meta.url));
+      const hash = createHash('sha256').update(bytes).digest('hex');
+      assert.ok(!variantHashes.has(hash), `No duplicate exported photo: ${variant.src}`);
+      variantHashes.add(hash);
       assert.ok(bytes.length <= (variant.width === 480 ? 50 : 130) * 1024, variant.src);
       const dimensions = { width: variant.width, height: variant.height };
       assert.deepEqual(jpegDimensions(bytes), dimensions, variant.src);
@@ -52,12 +62,12 @@ test('edited photos have accurate dimensions and bounded preview/full-size bytes
 
 test('photo replacements cover the requested blocks and leave stone samples unchanged', async () => {
   const expected = [
-    ...categories.map((category) => category.cover),
+    ...categoryItems.map((image) => image.src),
     ...projects.map((image) => image.src),
     ...warehouse.map((image) => image.src),
   ];
   assert.deepEqual(Object.keys(editedImages).sort(), [...new Set(expected)].sort());
-  for (const original of [...projects, ...warehouse]) {
+  for (const original of [...categoryItems, ...projects, ...warehouse]) {
     const before = structuredClone(original);
     const edited = withEditedImage(original);
     assert.equal(edited.id, original.id);
@@ -67,6 +77,23 @@ test('photo replacements cover the requested blocks and leave stone samples unch
     assert.deepEqual(original, before);
   }
   for (const stone of stones) assert.equal(withEditedImage(stone), stone);
+  assert.equal(categoryItems.length, 87);
+  const expectedFiles = new Set([
+    ...Object.values(editedImages).flatMap((image) =>
+      image.variants.map((variant) => variant.src.split('/').at(-1)),
+    ),
+    'material-story-600.jpg',
+    'material-story-1200.jpg',
+    'service-delivery-600.jpg',
+    'service-delivery-1200.jpg',
+    'service-installation-600.jpg',
+    'service-installation-1200.jpg',
+  ]);
+  assert.deepEqual(
+    (await readdir(new URL('../public/images/edited/', import.meta.url))).sort(),
+    [...expectedFiles].sort(),
+    'Only referenced image variants belong in the edited assets directory',
+  );
   const visibleSources = [
     ...categories.map((category) => category.cover),
     ...[projects[11], projects[12], projects[4]].map((image) => image.src),

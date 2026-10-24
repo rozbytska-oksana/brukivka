@@ -23,7 +23,7 @@
         class="expand"
         aria-hidden="true"
       >
-        ↗
+        <AppIcon name="arrow-up-right" />
       </span>
     </div>
     <p>{{ item.caption }}</p>

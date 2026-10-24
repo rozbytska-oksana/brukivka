@@ -21,7 +21,7 @@
         class="card-arrow"
         aria-hidden="true"
       >
-        ↗
+        <AppIcon name="arrow-up-right" />
       </span>
     </div>
     <div class="card-text">
