@@ -19,6 +19,17 @@ export const businessContacts = {
   },
 } as const satisfies BusinessContacts;
 
+// Selected by the user for enquiries through WhatsApp and Viber on 2026-10-27.
+export const enquiryPhone = businessContacts.phones[1];
+
+export function enquiryLinks(text: string) {
+  return {
+    email: `mailto:${businessContacts.emails[0]}?subject=${encodeURIComponent('Запит щодо гранітних виробів')}&body=${encodeURIComponent(text)}`,
+    whatsapp: `https://wa.me/${enquiryPhone.number.replace(/\D/g, '')}?text=${encodeURIComponent(text)}`,
+    viber: `viber://chat?number=${encodeURIComponent(enquiryPhone.number)}`,
+  };
+}
+
 export function messengerLinks(phone: string) {
   return [
     { label: 'Viber', href: `viber://chat?number=${encodeURIComponent(phone)}` },

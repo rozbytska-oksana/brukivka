@@ -44,7 +44,7 @@
       <div class="section-heading">
         <h2>
           Інші
-          <em>вироби.</em>
+          <em>вироби</em>
         </h2>
         <NuxtLink
           class="text-link"

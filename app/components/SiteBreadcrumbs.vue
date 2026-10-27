@@ -2,6 +2,7 @@
   <nav
     aria-label="Хлібні крихти"
     class="breadcrumbs"
+    tabindex="0"
   >
     <NuxtLink
       class="link-effect"
@@ -66,12 +67,27 @@ useHead(() => ({
   --link-idle-color: var(--muted);
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  overflow-wrap: anywhere;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overflow-wrap: normal;
+  white-space: nowrap;
+  scrollbar-width: none;
+  scroll-padding-inline: 8px;
   color: var(--muted);
   font-size: var(--text-small);
-  padding-top: 30px;
+  margin-inline: -8px;
+  padding: 30px 8px 8px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  > * {
+    flex: 0 0 auto;
+  }
 
   a {
     display: inline-flex;

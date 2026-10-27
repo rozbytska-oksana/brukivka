@@ -38,7 +38,7 @@
             Від першої доріжки
             <br />
             до
-            <em>останньої деталі.</em>
+            <em>останньої деталі</em>
           </h2>
         </div>
         <p class="section-description">
@@ -95,7 +95,7 @@
             У каменю
             <br />
             є свій
-            <em>почерк.</em>
+            <em>почерк</em>
           </h2>
           <p>
             Прожилки, зерно, природні переходи кольору. Обробка відкриває різні сторони одного
@@ -128,9 +128,9 @@
         <div>
           <span class="eyebrow">02 / Палітра природи</span>
           <h2 id="stone-heading">
-            Вісімнадцять відтінків.
+            Вісімнадцять відтінків
             <br />
-            <em>Без зайвих слів.</em>
+            <em>Без зайвих слів</em>
           </h2>
         </div>
         <p class="section-description">
@@ -160,7 +160,7 @@
           <h2 id="projects-heading">
             Ідея набуває
             <br />
-            <em>своєї форми.</em>
+            <em>своєї форми</em>
           </h2>
         </div>
         <p class="section-description">
@@ -187,9 +187,9 @@
         <div>
           <span class="eyebrow">04 / Від задуму до втілення</span>
           <h2 id="services-heading">
-            Обрати. Доставити.
+            Обрати Доставити
             <br />
-            <em>Втілити.</em>
+            <em>Втілити</em>
           </h2>
         </div>
         <p class="section-description">

@@ -26,8 +26,8 @@
         </span>
         <h1 id="hero-heading">
           <span>Гранітна</span>
-          <span>бруківка.</span>
-          <em>Природа у деталях.</em>
+          <span>бруківка</span>
+          <em>Природа у деталях</em>
         </h1>
         <p>
           Від фактури доріжки до лінії сходів. Бруківка, плитка та вироби з природного каменю для
@@ -47,7 +47,12 @@
             <span class="text-link-label">Обговорити проєкт</span>
           </NuxtLink>
         </div>
-        <div class="hero-notes">
+        <div
+          class="hero-notes"
+          role="group"
+          aria-label="Особливості каменю"
+          tabindex="0"
+        >
           <span>Жива фактура</span>
           <span>Природні відтінки</span>
           <span>Різні види обробки</span>
@@ -169,6 +174,7 @@ const { demo } = useRuntimeConfig().public;
     }
   }
   &-copy {
+    min-width: 0;
     max-width: 820px;
     > p {
       max-width: 440px;
@@ -200,10 +206,22 @@ const { demo } = useRuntimeConfig().public;
   &-notes {
     display: flex;
     gap: 8px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
     color: var(--text);
     font-size: var(--text-small);
     margin-top: 28px;
+    margin-inline: -18px;
+    padding-inline: 18px;
+    scroll-padding-inline: 18px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    > span {
+      flex: 0 0 auto;
+    }
     span + span::before {
       content: '·';
       margin-right: 8px;
@@ -214,6 +232,9 @@ const { demo } = useRuntimeConfig().public;
     }
     @include bp.medium {
       gap: 10px 16px;
+      margin-inline: 0;
+      padding-inline: 0;
+      scroll-padding-inline: 0;
     }
   }
   &-demo {

@@ -11,9 +11,9 @@
       <div>
         <span class="eyebrow">06 / Завжди є з чого почати</span>
         <h2 id="contacts-heading">
-          Ваш простір.
+          Ваш простір
           <br />
-          <em>Наша розмова.</em>
+          <em>Наша розмова</em>
         </h2>
       </div>
       <p class="section-description">

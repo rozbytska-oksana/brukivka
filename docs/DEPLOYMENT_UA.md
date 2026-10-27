@@ -1,49 +1,28 @@
 # Розміщення: GitHub Pages і HostPro
 
-Одна кодова база, дві окремі статичні збірки. Публікація та зміна DNS ще не виконані й не є командою цього пакета.
+## GitHub Pages: повна версія для клієнтського тестування
 
-| Налаштування | GitHub Pages                                      | HostPro                              |
-| ------------ | ------------------------------------------------- | ------------------------------------ |
-| Призначення  | Портфоліо-демо                                    | Основний бізнес-сайт                 |
-| app.baseURL  | /<repository>/ для project Pages                  | / для кореня домену                  |
-| Site URL     | Реальна повна адреса демо                         | Підтверджений production-домен       |
-| Індексація   | noindex                                           | Дозволена після запуску              |
-| Звернення    | Демонстраційна поведінка, без реального приймання | Реальні погоджені контакти           |
-| Доставка     | GitHub Actions                                    | Вміст .output/public у document root |
+За рішенням користувачки від 27.10.2026 GitHub Pages тимчасово використовує `BRUKIVKA_TARGET=production`: звернення через Email, WhatsApp і Viber активні, демонстраційні плашки й обмеження прибрані. Це перевірка перед перенесенням на основний домен. Серверної доставки форми немає: форма відкриває поштовий застосунок/месенджер, для Viber текст копіюється окремо. Надсилання підтверджує користувач у застосунку.
 
-Конкретну назву repository та доступи не задано. Не фіксувати вигаданий username або домен. Використати NUXT_APP_BASE_URL для Nuxt base path та окремі явно описані змінні проєкту для site URL/deployment target. Приклад env повинен містити тільки placeholders, без секретів. Всі параметри передавати під час generate: завантажений статичний output сам не перечитає змінні середовища хостингу.
+`BRUKIVKA_ALLOW_INDEXING=false` зберігає noindex. Canonical, OG URL, sitemap та ресурси використовують адресу Pages з підшляхом `/brukivka/`, а не майбутній основний домен. `base_url` і `base_path` беруться з `actions/configure-pages`, із завершальним `/`. Окремий режим `BRUKIVKA_TARGET=demo` лишається доступним для портфоліо, але workflow його зараз не використовує.
 
-## GitHub Pages
+Workflow `.github/workflows/pages.yml` запускається лише вручну: **Actions → Verify and deploy GitHub Pages → Run workflow**. `publish=false` типово виконує перевірки й завантажує артефакт без deploy. Для публікації користувачка вмикає `publish`. Автоматичного деплою після push немає. У **Settings → Pages → Source** має бути вибрано **GitHub Actions**.
 
-Готовий workflow — `.github/workflows/pages.yml`: Node із `.nvmrc`, npm ci, typecheck, lint/Prettier, тести, generate, verify:output і локальна HTTP-перевірка. Публікація використовує офіційні configure/upload/deploy Pages actions. Artifact — тільки `.output/public`, із `.nojekyll` та читабельним `404.html`; вихідні файли, локальні налаштування, symlink/hardlink не допускаються перевіркою output.
+Workflow запускає typecheck, lint/Prettier, тести, generate, verify:output і verify:http. Публікується лише `.output/public`, із `.nojekyll` та читабельним `404.html`. Після публікації перевірити прямі URL категорій і refresh, невідому адресу з HTTP 404, теми, галерею, мобільну навігацію, всі три способи звернення та noindex. Реальний перехід у Viber/WhatsApp потрібно перевірити на телефоні.
 
-Workflow запускається виключно через `workflow_dispatch`. Параметр `publish` типово false: проходять перевірки та завантаження артефакту, deploy-job пропускається. Публікація відбудеться лише за явного ручного запуску з `publish=true`. Тригерів push/pull_request немає. Сама підготовка файлів нічого не публікує.
+Локальна перевірка такої ж конфігурації:
 
-URL та підшлях беруться з `actions/configure-pages`: `base_url` і `base_path`, із доданим завершальним `/`. Це підтримує project Pages (`/<repository>/`) та Pages у корені (`/`) без вигаданого username чи ручних repository variables. `BRUKIVKA_TARGET=demo` і `BRUKIVKA_ALLOW_INDEXING=false` зафіксовані в workflow; основна локальна конфігурація production не змінюється.
+```bash
+export BRUKIVKA_TARGET=production
+export BRUKIVKA_ALLOW_INDEXING=false
+export NUXT_APP_BASE_URL=/brukivka/
+export BRUKIVKA_SITE_URL=https://rozbytska-oksana.github.io/brukivka/
+npm run generate
+npm run verify:output
+npm run verify:http
+```
 
-### Підготовка репозиторію та ручний запуск
-
-1. Створити GitHub-репозиторій для цього проєкту. Його URL ще не надано; не використовувати вигадану адресу remote.
-2. Перед першим додаванням файлів переконатися, що це окремий Git-репозиторій проєкту. Під час локальної перевірки `git rev-parse --show-toplevel` повертав домашню папку `/Users/oksanarozbytska`, а не BRUKIVKA. Ініціалізацію виконує користувачка в папці проєкту:
-
-   ```bash
-   cd /Users/oksanarozbytska/Desktop/Work/Personal/brukivka
-   git init
-   git rev-parse --show-toplevel
-   git status --short
-   ```
-
-   Очікуваний корінь після ініціалізації — саме папка `brukivka`. Далі перевірити список файлів, зробити commit, налаштувати реальний remote і виконати push. Не додавати домашню папку до репозиторію проєкту. Ці дії агент не виконував.
-
-3. У репозиторії GitHub відкрити **Settings → Pages → Build and deployment → Source → GitHub Actions**. Workflow потрібно мати в default branch, щоб став доступним ручний запуск. Для цього workflow не потрібні власні secrets/PAT або DEMO_BASE_URL/DEMO_SITE_URL.
-4. У **Actions → Verify and deploy GitHub Pages demo → Run workflow** залишити `publish` вимкненим. Переконатися, що build пройшов, артефакт `github-pages` створено, а deploy пропущено. Pages має бути налаштований навіть для такої перевірки: configure-pages читає URL сайту.
-5. Коли публікація погоджена, запустити workflow повторно з увімкненим `publish`. URL опублікованого демо з’явиться у deploy-job/environment. Потім перевірити головну, refresh прямої категорії, невідому адресу з HTTP 404, `_nuxt`/фото/іконки, теми, галерею, мобільне меню, noindex і demo-обмеження звернень на реальному Pages.
-
-Не обирати branch-based розміщення вихідного коду: GitHub Pages має отримати саме згенерований артефакт. Налаштування remote, push, запуск workflow і перевірка фактичного GitHub Pages ще не виконані.
-
-Джерела: [custom workflows GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), [configure-pages v5 outputs](https://github.com/actions/configure-pages/blob/v5/action.yml).
-
-Pages використовується як showcase проєкту. Реальні комерційні звернення та збір даних не виконувати в демо. Позначити демонстраційний статус. Правила Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits.
+Ці команди нічого не публікують. Змінні потрібні під час генерації й перевірок: готовий статичний output не перечитує налаштування хостингу.
 
 ## HostPro
 
@@ -74,7 +53,7 @@ BRUKIVKA_TARGET=production BRUKIVKA_ALLOW_INDEXING=true NUXT_APP_BASE_URL=/ BRUK
 
 verify:release вимагає production та явний прапорець індексації, потім перевіряє саме створений HTML: index/follow на контентних сторінках, noindex на 404, canonical/OG/schema/sitemap та ресурси. Вона не змінює .env, не публікує сайт і не запускає Search Console. Не завантажувати передрелізний output з noindex замість цієї збірки. Комерційна збірка, яка дозволяє індексацію, потребує HTTPS siteURL.
 
-Окреме GitHub Pages-демо потребує `BRUKIVKA_TARGET=demo`, deployment base path і повного `BRUKIVKA_SITE_URL` із цим підшляхом. У `.github/workflows/pages.yml` вони визначаються автоматично з Pages metadata, а індексація примусово вимкнена. Версії офіційних Pages actions звірені з документацією GitHub; workflow підготовлено, але на GitHub ще не запускався.
+Окреме портфоліо-демо можна згенерувати з `BRUKIVKA_TARGET=demo`, власним base path і site URL. Поточний Pages workflow використовує повну передрелізну версію з noindex, як описано вище.
 
 Apache-приклад — `deployment/hostpro.htaccess.example`: ErrorDocument 404 без SPA rewrite. Для іншого сервера потрібен його еквівалент. Фактичний document root, тип сервера, HTTPS, redirects, backup/rollback та HTTP-поведінку хостингу ще не перевірено; нічого не опубліковано.
 

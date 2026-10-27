@@ -98,6 +98,16 @@ assert.match(
   'Confirmed business start year is visible in the hero',
 );
 if (!demo) {
+  for (const tag of ['textarea', 'select']) {
+    const control = homeHTML.match(new RegExp(`<${tag}\\b[^>]*>`))?.[0];
+    assert.ok(control, `Enquiry ${tag} is server-rendered`);
+    assert.doesNotMatch(control, /\bdisabled\b/, `Enquiry ${tag} is enabled`);
+  }
+  for (const channel of ['email', 'whatsapp', 'viber'])
+    assert.ok(
+      homeHTML.includes(`<option value="${channel}"`),
+      `Enquiry channel available: ${channel}`,
+    );
   const schemas = schemasIn(homeHTML);
   const business = schemas.find((schema) => schema['@type'] === 'LocalBusiness');
   assert.equal(
