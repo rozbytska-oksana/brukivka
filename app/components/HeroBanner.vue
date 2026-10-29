@@ -113,11 +113,16 @@ const { demo } = useRuntimeConfig().public;
 
 .hero {
   &-banner {
+    --hero-min-height: clamp(660px, calc(100svh - var(--header-height)), 760px);
+    min-height: var(--hero-min-height);
     position: relative;
     isolation: isolate;
     overflow: hidden;
     background: var(--bg);
     border-bottom: 1px solid var(--line);
+    @include bp.medium {
+      --hero-min-height: clamp(660px, calc(100svh - var(--header-height)), 820px);
+    }
   }
   &-shade {
     position: absolute;
@@ -163,13 +168,12 @@ const { demo } = useRuntimeConfig().public;
   }
   &-inner {
     position: relative;
-    min-height: clamp(660px, calc(100svh - var(--header-height)), 760px);
+    min-height: var(--hero-min-height);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-block: 40px 24px;
     @include bp.medium {
-      min-height: clamp(660px, calc(100svh - var(--header-height)), 820px);
       padding-block: 56px 28px;
     }
   }

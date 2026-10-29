@@ -1,19 +1,19 @@
 # Розміщення: GitHub Pages і HostPro
 
-## GitHub Pages: повна версія для клієнтського тестування
+## GitHub Pages: портфоліо-демо
 
-За рішенням користувачки від 27.10.2026 GitHub Pages тимчасово використовує `BRUKIVKA_TARGET=production`: звернення через Email, WhatsApp і Viber активні, демонстраційні плашки й обмеження прибрані. Це перевірка перед перенесенням на основний домен. Серверної доставки форми немає: форма відкриває поштовий застосунок/месенджер, для Viber текст копіюється окремо. Надсилання підтверджує користувач у застосунку.
+За рішенням користувачки від 28.10.2026 GitHub Pages знову використовує `BRUKIVKA_TARGET=demo`: є позначка портфоліо-демо, поля звернення вимкнені, немає активних телефонних/email/messenger-посилань. Тимчасовий повний режим для клієнтського тестування від 27.10.2026 завершений. Основний сайт https://brukivka.org/ на HostPro продовжує працювати в production.
 
-`BRUKIVKA_ALLOW_INDEXING=false` зберігає noindex. Canonical, OG URL, sitemap та ресурси використовують адресу Pages з підшляхом `/brukivka/`, а не майбутній основний домен. `base_url` і `base_path` беруться з `actions/configure-pages`, із завершальним `/`. Окремий режим `BRUKIVKA_TARGET=demo` лишається доступним для портфоліо, але workflow його зараз не використовує.
+`BRUKIVKA_ALLOW_INDEXING=false` зберігає noindex. Canonical, OG URL, sitemap та ресурси демо використовують адресу Pages з підшляхом `/brukivka/`. `base_url` і `base_path` беруться з `actions/configure-pages`, із завершальним `/`.
 
 Workflow `.github/workflows/pages.yml` запускається лише вручну: **Actions → Verify and deploy GitHub Pages → Run workflow**. `publish=false` типово виконує перевірки й завантажує артефакт без deploy. Для публікації користувачка вмикає `publish`. Автоматичного деплою після push немає. У **Settings → Pages → Source** має бути вибрано **GitHub Actions**.
 
-Workflow запускає typecheck, lint/Prettier, тести, generate, verify:output і verify:http. Публікується лише `.output/public`, із `.nojekyll` та читабельним `404.html`. Після публікації перевірити прямі URL категорій і refresh, невідому адресу з HTTP 404, теми, галерею, мобільну навігацію, всі три способи звернення та noindex. Реальний перехід у Viber/WhatsApp потрібно перевірити на телефоні.
+Workflow запускає typecheck, lint/Prettier, тести, generate, verify:output і verify:http. Публікується лише `.output/public`, із `.nojekyll` та читабельним `404.html`. Після публікації перевірити прямі URL категорій і refresh, невідому адресу з HTTP 404, теми, галерею, мобільну навігацію, демо-позначки, вимкнені поля звернення, відсутність активних комерційних посилань та noindex. Перевірка реальних месенджерів стосується лише production на HostPro.
 
 Локальна перевірка такої ж конфігурації:
 
 ```bash
-export BRUKIVKA_TARGET=production
+export BRUKIVKA_TARGET=demo
 export BRUKIVKA_ALLOW_INDEXING=false
 export NUXT_APP_BASE_URL=/brukivka/
 export BRUKIVKA_SITE_URL=https://rozbytska-oksana.github.io/brukivka/
@@ -53,7 +53,7 @@ BRUKIVKA_TARGET=production BRUKIVKA_ALLOW_INDEXING=true NUXT_APP_BASE_URL=/ BRUK
 
 verify:release вимагає production та явний прапорець індексації, потім перевіряє саме створений HTML: index/follow на контентних сторінках, noindex на 404, canonical/OG/schema/sitemap та ресурси. Вона не змінює .env, не публікує сайт і не запускає Search Console. Не завантажувати передрелізний output з noindex замість цієї збірки. Комерційна збірка, яка дозволяє індексацію, потребує HTTPS siteURL.
 
-Окреме портфоліо-демо можна згенерувати з `BRUKIVKA_TARGET=demo`, власним base path і site URL. Поточний Pages workflow використовує повну передрелізну версію з noindex, як описано вище.
+Окреме портфоліо-демо можна згенерувати з `BRUKIVKA_TARGET=demo`, власним base path і site URL. Поточний Pages workflow використовує саме портфоліо-демо з noindex, як описано вище.
 
 Apache-приклад — `deployment/hostpro.htaccess.example`: ErrorDocument 404 без SPA rewrite. Для іншого сервера потрібен його еквівалент. Фактичний document root, тип сервера, HTTPS, redirects, backup/rollback та HTTP-поведінку хостингу ще не перевірено; нічого не опубліковано.
 
@@ -64,3 +64,9 @@ Apache-приклад — `deployment/hostpro.htaccess.example`: ErrorDocument 4
 ## Перенесення інформаційних сторінок у лендинг
 
 Поточний sitemap містить головну й шість категорій. Карту попередніх адрес задає `app/data/navigation.ts`: вони ведуть до секцій головної. Для Apache додано точні RewriteRule із HTTP 301 у `deployment/hostpro.htaccess.example`. Самостійний static output (включно з Pages) містить redirect HTML із meta refresh, посиланням і location.replace; відповідь такого документа на простому сервері — 200. На HostPro застосувати й перевірити серверні правила, а не називати HTML-перехід 301. Невідомі маршрути зберігають 404.
+
+## Кешування статичних ресурсів — 29.10.2026
+
+У `deployment/hostpro.htaccess.example` підготовлено Cache-Control: 7 днів для фото/іконок/WOFF2 і рік з immutable для JS/CSS із хешем у назві. HTML/XML/TXT зберігають no-cache. Це лише локальний приклад: на HostPro правила ще не застосовані. Додати тільки блоки кешування до чинного .htaccess після резервної копії, зберігши налаштовані підтримкою HTTPS/www-редиректи та cPanel PHP-директиви. Не замінювати чинний файл усім прикладом.
+
+Після застосування перевірити Cache-Control на фото, шрифті, хешованих JS/CSS і HTML зовнішніми HTTP-запитами. Якщо nginx віддає ці ресурси напряму й не враховує .htaccess, потрібне відповідне налаштування HostPro. Для заміни фото/шрифтів під тим самим URL враховувати 7-денний браузерний кеш або змінювати URL. Кешування допомагає повторним візитам; воно не є виміряним прискоренням першого відкриття.

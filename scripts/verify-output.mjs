@@ -124,10 +124,17 @@ const galleryIds = new Set();
 for (const route of siteRoutes) {
   const file = resolve(output, `.${route}`, 'index.html');
   const html = await readFile(file, 'utf8');
+  assert.doesNotMatch(html, /<link\b[^>]*href="[^"]*fonts\/fonts\.css"/);
+  const fontStyles = html.match(/<style\b[^>]*>[^<]*@font-face[^<]*<\/style>/)?.[0];
+  assert.ok(fontStyles, `Inline local font declarations: ${route}`);
+  for (const [, fontPath] of fontStyles.matchAll(/url\(([^)]+)\)/g)) {
+    assert.ok(fontPath.startsWith(`${base}fonts/`), `Base-safe font URL: ${fontPath}`);
+    assert.ok((await stat(resolve(output, fontPath.slice(base.length)))).isFile());
+  }
   assert.equal((html.match(/<h1[ >]/g) || []).length, 1, `One H1: ${route}`);
   assert.match(html, /<html[^>]+lang="uk"/, `Ukrainian document: ${route}`);
   assert.doesNotMatch(
-    html,
+    html.replace(/<style\b[^>]*>[\s\S]*?<\/style>/g, ''),
     /NuxtWelcome|reveal-ready/,
     `SSR content is visible without JS: ${route}`,
   );

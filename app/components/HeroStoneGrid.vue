@@ -1,6 +1,7 @@
 <template>
   <div
     class="stone-grid"
+    :style="{ '--row-count': rows.length }"
     :data-running="running"
     aria-hidden="true"
   >
@@ -21,8 +22,16 @@
             :key="`${stone.id}-${column}`"
             class="stone-tile"
           >
-            <ReferenceImage
-              :src="stone.src"
+            <img
+              :src="asset(stone.src)"
+              :srcset="
+                stone.variants
+                  .map((variant) => `${asset(variant.src)} ${variant.width}w`)
+                  .join(', ')
+              "
+              sizes="max(200px, 20vw)"
+              :width="stone.width"
+              :height="stone.height"
               alt=""
               loading="eager"
               decoding="async"
@@ -37,21 +46,13 @@
 </template>
 
 <script setup lang="ts">
-import stones from '~/data/galleries/stones';
+import { heroImages } from '~/data/hero-images';
 import { heroStoneRows } from '~/data/hero-stone-rows';
 defineProps<{ running: boolean }>();
-// Eight original files are reused throughout the lattice; duplicate tiles share
-// their URLs and browser cache. Never use the legacy 90px thumbnails in this hero.
-const swatches = [
-  stones[0]!,
-  stones[1]!,
-  stones[2]!,
-  stones[3]!,
-  stones[5]!,
-  stones[6]!,
-  stones[10]!,
-  stones[14]!,
-];
+const asset = useAsset();
+// Only decorative previews use these exports; galleries retain their originals.
+// Duplicate tiles share URLs and the browser cache.
+const swatches = heroImages;
 const rows = heroStoneRows.map((row) => ({
   duration: row.duration,
   offset: row.offset,
@@ -65,6 +66,7 @@ const rows = heroStoneRows.map((row) => ({
 .stone {
   &-grid {
     --tile-width: max(200px, 20vw);
+    --tile-height: calc(var(--tile-width) / 1.46);
     --tile-gap: 8px;
     position: absolute;
     inset: 0;
@@ -90,6 +92,8 @@ const rows = heroStoneRows.map((row) => ({
     left: 50%;
     top: 50%;
     width: calc(100% + 720px);
+    // Reserve all rows before their HTML/images arrive: centering must not jump.
+    height: calc(var(--row-count) * var(--tile-height) + (var(--row-count) - 1) * var(--tile-gap));
     display: flex;
     flex-direction: column;
     gap: var(--tile-gap);
@@ -98,6 +102,8 @@ const rows = heroStoneRows.map((row) => ({
   }
   &-row {
     display: flex;
+    flex: 0 0 var(--tile-height);
+    height: var(--tile-height);
     width: max-content;
     animation: stone-drift var(--row-duration) linear infinite;
     animation-delay: var(--row-offset);
@@ -119,11 +125,15 @@ const rows = heroStoneRows.map((row) => ({
     position: relative;
     flex: 0 0 var(--tile-width);
     width: var(--tile-width);
+    height: 100%;
     aspect-ratio: 1.46;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 5px 18px #00000014;
     :deep(img) {
+      position: absolute;
+      inset: 0;
+      display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;

@@ -1,5 +1,6 @@
 import { writeFile, mkdir, copyFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { readFileSync } from 'node:fs';
 import { siteRoutes, sectionRedirects } from './config/routes';
 import { businessContacts } from './app/data/contacts';
 
@@ -24,6 +25,12 @@ if (siteURL) {
 }
 if (production && !siteURL) throw new Error('Production needs a site URL');
 const indexable = production && process.env.BRUKIVKA_ALLOW_INDEXING === 'true';
+// Inline the small font declarations to avoid a render-blocking stylesheet request.
+// Font binaries remain local, unicode-range selected, and deployment-base aware.
+const fontStyles = readFileSync(
+  new URL('./public/fonts/fonts.css', import.meta.url),
+  'utf8',
+).replace(/url\((font-\d+\.woff2)\)/g, `url(${baseURL}fonts/$1)`);
 if (indexable && !siteURL.startsWith('https://'))
   throw new Error('An indexable production build needs an HTTPS site URL');
 
@@ -31,13 +38,13 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   ssr: true,
   devtools: { enabled: false },
+  features: { inlineStyles: true },
   css: ['~/assets/styles/main.scss'],
   app: {
     baseURL,
     head: {
       htmlAttrs: { lang: 'uk' },
       link: [
-        { rel: 'stylesheet', href: `${baseURL}fonts/fonts.css` },
         {
           rel: 'icon',
           type: 'image/x-icon',
@@ -49,6 +56,7 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/svg+xml', sizes: 'any', href: `${baseURL}favicon.svg` },
         { rel: 'apple-touch-icon', sizes: '180x180', href: `${baseURL}apple-touch-icon.png` },
       ],
+      style: [{ key: 'local-fonts', innerHTML: fontStyles }],
       titleTemplate: '%s · BRUKIVKA',
       meta: [
         { name: 'color-scheme', content: 'dark light' },
